@@ -10,7 +10,8 @@ public class IsoCharacterController : MonoBehaviour
 
     Rigidbody rb;
 
-    private Vector3 getInput;
+    Vector3 getInput = Vector3.zero;
+    public FixedJoystick joystick;
 
     private void Start() 
     {
@@ -30,7 +31,8 @@ public class IsoCharacterController : MonoBehaviour
 
     private void GatherInput()
     {
-        getInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
+
+        getInput = new Vector3(joystick.input.x, 0, joystick.input.y);
     }
 
     private void Rotate()
