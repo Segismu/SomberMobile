@@ -1870,6 +1870,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6623077058709156551, guid: e8a15fc4d3bbd4916a9a08b593ea7b78,
         type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623077058709156551, guid: e8a15fc4d3bbd4916a9a08b593ea7b78,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -1957,6 +1962,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ReferenceResolution.y
       value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623077060208162713, guid: e8a15fc4d3bbd4916a9a08b593ea7b78,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6623077060208162719, guid: e8a15fc4d3bbd4916a9a08b593ea7b78,
         type: 3}
