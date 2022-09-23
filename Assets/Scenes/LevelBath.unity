@@ -4145,8 +4145,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251372589}
   m_LocalRotation: {x: -0.04532213, y: -0.4361086, z: 0.48313773, w: 0.7578477}
-  m_LocalPosition: {x: 21.4, y: -0.07, z: 1.1523082}
-  m_LocalScale: {x: 9, y: 9, z: 9}
+  m_LocalPosition: {x: 23.83, y: -0.07, z: 1.1523082}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1251078671}
@@ -4177,7 +4177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1251078669}
-  - component: {fileID: 1251469455}
+  - component: {fileID: 1251372590}
   m_Layer: 0
   m_Name: Toilet_01
   m_TagString: Untagged
@@ -4185,6 +4185,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1251372590
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251372589}
+  m_Material: {fileID: 13400000, guid: 01814c9df38c92a478dbd2ad1bd86edd, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 4f9493ae43f6b774381a306ce63f280b, type: 3}
 --- !u!1 &1251372591
 GameObject:
   m_ObjectHideFlags: 0
@@ -4203,20 +4217,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1251469455
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251372589}
-  m_Material: {fileID: 13400000, guid: 01814c9df38c92a478dbd2ad1bd86edd, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 4f9493ae43f6b774381a306ce63f280b, type: 3}
 --- !u!33 &1252373039
 MeshFilter:
   m_ObjectHideFlags: 0
