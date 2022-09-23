@@ -6861,6 +6861,150 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1001 &1458291428
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5500663763436769053, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273458405912895217, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273458405912895228, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273458405912895228, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273458405912895228, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 131
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273458405912895228, guid: b5f484da0057b4826a2e6fc02944e103,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 571
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b5f484da0057b4826a2e6fc02944e103, type: 3}
 --- !u!1 &1502613624
 GameObject:
   m_ObjectHideFlags: 0
@@ -11976,7 +12120,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -793, y: 54}
+  m_AnchoredPosition: {x: -804, y: 91}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1679653922
@@ -11999,18 +12143,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'WASD to move.
-
-    P for Pause.
-
-    ESC for Quiting.
-
-
-    Pick up keys
-    to POP barriers and reaching the pillows. You have  seven  lives and obstacles
-    can deal you more than one damage depending of the time and force of the impact.
-    Lava will knock you out instantly. Uppon KO, you will start the current level
-    from scratch with no keys and fully healed.'
+  m_text: "\n\t   to move.\n\n\nPick up keys to POP barriers and reaching the pillows.
+    You have  seven  lives and obstacles can deal you more than one damage depending
+    of the time and force of the impact. Lava will knock you out instantly. Uppon
+    KO, you will start the current level from scratch with no keys and fully healed.
+    Progress will be auto-saved. Get deeper into the dungeon to unlock achievements."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9235e4dbf7a99794ba5ddbc6c97172c0, type: 2}
   m_sharedMaterial: {fileID: -6371117350175406657, guid: 9235e4dbf7a99794ba5ddbc6c97172c0,
@@ -12074,7 +12211,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -906.199, w: -519.9498}
+  m_margin: {x: 0, y: 0, z: -967.08826, w: -519.9498}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

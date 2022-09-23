@@ -94,5 +94,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Notification
       objectReference: {fileID: 0}
+    - target: {fileID: 1537145339327065116, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 93
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537145339327065116, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -353
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600045233355443734, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -635
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600045233355443734, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 139
+      objectReference: {fileID: 0}
+    - target: {fileID: 7105664019391578052, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_text
+      value: 'Find the keys to POP
+
+        the barriers and escape
+
+        the
+        nightmare.'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d227763b34343218ce725e5a941f6a, type: 3}
