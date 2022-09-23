@@ -832,6 +832,12 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!198 &463108050 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5722717832764980073, guid: 13b6b7ade60244918b843ec8692ef1a6,
+    type: 3}
+  m_PrefabInstance: {fileID: 471357943}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &471357943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4727,12 +4733,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 37d5e5876a58b2a4a831aeebbe30154e, type: 3}
---- !u!198 &1471548011 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 7006226890103899875, guid: 13b6b7ade60244918b843ec8692ef1a6,
-    type: 3}
-  m_PrefabInstance: {fileID: 471357943}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1516108660 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2979588119980908852, guid: 8752381a316ad42a5ba7c9103b76248e,
@@ -4992,7 +4992,7 @@ PrefabInstance:
         type: 3}
       propertyPath: bugExplosion
       value: 
-      objectReference: {fileID: 1471548011}
+      objectReference: {fileID: 463108050}
     - target: {fileID: 4549064201760564804, guid: 31594d7006e8f154ca66d819aba32f3a,
         type: 3}
       propertyPath: m_Name
@@ -5736,7 +5736,7 @@ PrefabInstance:
         type: 3}
       propertyPath: bugExplosion
       value: 
-      objectReference: {fileID: 1471548011}
+      objectReference: {fileID: 463108050}
     - target: {fileID: 4549064201760564804, guid: 31594d7006e8f154ca66d819aba32f3a,
         type: 3}
       propertyPath: m_Name
@@ -7356,7 +7356,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5092533535809078485}
-  m_Material: {fileID: 13400000, guid: e88ae270218c54d7fb14b3290754d625, type: 2}
+  m_Material: {fileID: 13400000, guid: 01814c9df38c92a478dbd2ad1bd86edd, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -7936,7 +7936,7 @@ PrefabInstance:
     - target: {fileID: 3705028537381535112, guid: 78df1db2fbc8ec64f949fac0c05bf693,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.88
+      value: 3.367
       objectReference: {fileID: 0}
     - target: {fileID: 3705028537381535112, guid: 78df1db2fbc8ec64f949fac0c05bf693,
         type: 3}
@@ -7946,7 +7946,7 @@ PrefabInstance:
     - target: {fileID: 3705028537381535112, guid: 78df1db2fbc8ec64f949fac0c05bf693,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.43
+      value: 0.771
       objectReference: {fileID: 0}
     - target: {fileID: 3705028537381535112, guid: 78df1db2fbc8ec64f949fac0c05bf693,
         type: 3}
