@@ -485,6 +485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AIText: {fileID: 5452680578390120927}
   nextButton: {fileID: 5562349540511208391}
+  quitButton: {fileID: 9143209978705627192}
 --- !u!1 &4045664775473626381
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,22 +8,22 @@ namespace SOMBER.Dialogue
 {
     public class PlayerConversant : MonoBehaviour
     {
-        [SerializeField] Dialogue testDialogue;
         Dialogue currentDialogue;
         DialogueNode currentNode = null;
 
         public event Action onConversationUpdated;
 
-        private IEnumerator Start()
-        {
-            yield return new WaitForSeconds(2);
-            StartDialogue(testDialogue);
-        }
-
         public void StartDialogue(Dialogue newDialogue)
         {
             currentDialogue = newDialogue;
             currentNode = currentDialogue.GetRootNode();
+            onConversationUpdated();
+        }
+
+        public void Quit()
+        {
+            currentDialogue = null;
+            currentNode = null;
             onConversationUpdated();
         }
 
