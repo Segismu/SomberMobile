@@ -907,6 +907,7 @@ GameObject:
   - component: {fileID: 8440525477239232048}
   - component: {fileID: 5339691043876186684}
   - component: {fileID: 130602789041849722}
+  - component: {fileID: 5625702677181110702}
   m_Layer: 3
   m_Name: Testis
   m_TagString: Player
@@ -1212,6 +1213,19 @@ MonoBehaviour:
     m_DissipationDistance: 20
     m_PropagationSpeed: 200
   m_DefaultVelocity: {x: -0.1, y: -0.1, z: 0}
+--- !u!114 &5625702677181110702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4642970788397931874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a489bbaa79194c8b8f45178370c04f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentDialogue: {fileID: 11400000, guid: f38ef5ea360c847a9aa604319e44055f, type: 2}
 --- !u!1 &4738863492760428455
 GameObject:
   m_ObjectHideFlags: 0

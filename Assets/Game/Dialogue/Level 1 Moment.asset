@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9097745086548946086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b6035c5c1f824498ad1b3f5da4808ed, type: 3}
+  m_Name: f2cba536-6cb1-4e9b-a3e1-59a411b7fa7d
+  m_EditorClassIdentifier: 
+  isPlayer: 0
+  text: It's not your fault.
+  children:
+  - a70d2680-d5bb-45c2-b786-470d377011a8
+  - 8e59febb-e70e-497a-85be-0ad10386fef2
+  rect:
+    serializedVersion: 2
+    x: 233
+    y: 26
+    width: 200
+    height: 100
+--- !u!114 &-7799343309797338340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b6035c5c1f824498ad1b3f5da4808ed, type: 3}
+  m_Name: 6d7d907d-2806-419e-8a64-a8e459a4c2d8
+  m_EditorClassIdentifier: 
+  isPlayer: 0
+  text: Leave me alone.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 520
+    y: 199
+    width: 200
+    height: 100
+--- !u!114 &-1548812998075685095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b6035c5c1f824498ad1b3f5da4808ed, type: 3}
+  m_Name: b3cd59e6-c687-4137-badb-fd2760341260
+  m_EditorClassIdentifier: 
+  isPlayer: 0
+  text: I can't stand this.
+  children:
+  - f6b19ddb-8901-42e6-ba8c-d01bcdbb8acd
+  - 82dbc2cc-b4b7-465d-9b57-d043cfb27095
+  - f2cba536-6cb1-4e9b-a3e1-59a411b7fa7d
+  rect:
+    serializedVersion: 2
+    x: -8
+    y: 139
+    width: 200
+    height: 100
+--- !u!114 &-1201805488915139849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b6035c5c1f824498ad1b3f5da4808ed, type: 3}
+  m_Name: 8e59febb-e70e-497a-85be-0ad10386fef2
+  m_EditorClassIdentifier: 
+  isPlayer: 0
+  text: Can't do now.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 510
+    y: 103
+    width: 200
+    height: 100
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 248f04dd341e1481e8786b43e9489f05, type: 3}
+  m_Name: Level 1 Moment
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1548812998075685095}
+  - {fileID: 8540594873771989357}
+  - {fileID: 1242787359125259992}
+  - {fileID: -9097745086548946086}
+  - {fileID: 8216057551909865549}
+  - {fileID: -7799343309797338340}
+  - {fileID: 4451799683345121758}
+  - {fileID: -1201805488915139849}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1242787359125259992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b6035c5c1f824498ad1b3f5da4808ed, type: 3}
+  m_Name: 82dbc2cc-b4b7-465d-9b57-d043cfb27095
+  m_EditorClassIdentifier: 
+  isPlayer: 0
+  text: I just want a good night of sleep.
+  children:
+  - 835c1158-797b-4508-9747-3e3338a22862
+  rect:
+    serializedVersion: 2
+    x: 227
+    y: 328
+    width: 200
+    height: 100
+--- !u!114 &4451799683345121758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b6035c5c1f824498ad1b3f5da4808ed, type: 3}
+  m_Name: a70d2680-d5bb-45c2-b786-470d377011a8
+  m_EditorClassIdentifier: 
+  isPlayer: 0
+  text: It's only mine.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 485
+    y: -3
+    width: 200
+    height: 100
+--- !u!114 &8216057551909865549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b6035c5c1f824498ad1b3f5da4808ed, type: 3}
+  m_Name: 835c1158-797b-4508-9747-3e3338a22862
+  m_EditorClassIdentifier: 
+  isPlayer: 0
+  text: Go to bed.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 523
+    y: 324
+    width: 200
+    height: 100
+--- !u!114 &8540594873771989357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b6035c5c1f824498ad1b3f5da4808ed, type: 3}
+  m_Name: f6b19ddb-8901-42e6-ba8c-d01bcdbb8acd
+  m_EditorClassIdentifier: 
+  isPlayer: 0
+  text: Please.
+  children:
+  - 835c1158-797b-4508-9747-3e3338a22862
+  - 6d7d907d-2806-419e-8a64-a8e459a4c2d8
+  rect:
+    serializedVersion: 2
+    x: 265
+    y: 167
+    width: 200
+    height: 100
