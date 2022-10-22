@@ -7,7 +7,7 @@ public class DamageController : MonoBehaviour
 {
     [SerializeField] private int Damage;
     [SerializeField] private HPController hpManager;
-    [SerializeField] ParticleSystem bugExplosion;
+    //[SerializeField] ParticleSystem bugExplosion;
     [SerializeField] float deathDelay = 1f;
 
 
@@ -22,7 +22,7 @@ public class DamageController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            bugExplosion.Play();
+            //bugExplosion.Play();
             DamageDealer();
             Intro();
         }

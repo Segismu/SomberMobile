@@ -6,9 +6,6 @@ using UnityEngine.UI;
 
 public class LoadLevel : MonoBehaviour
 {
-    
-    [SerializeField] ParticleSystem sucessParticles;
-    [SerializeField] ParticleSystem crashParticles;
     [SerializeField] private int DamageReceived;
     [SerializeField] AudioClip success;
     [SerializeField] AudioClip crash;
@@ -44,7 +41,6 @@ public class LoadLevel : MonoBehaviour
     void StartSuccessSequence()
     {
         audioSource.PlayOneShot(success);
-        sucessParticles.Play();
         GetComponent<IsoCharacterController>().enabled = false;
         Invoke("LoadNextLevel", levelLoadDelay);
     }
@@ -58,7 +54,6 @@ public class LoadLevel : MonoBehaviour
 {
     Invoke("Shake", 0f);
     audioSource.PlayOneShot(crash);
-    crashParticles.Play();
     DamageDealer();
 }
 

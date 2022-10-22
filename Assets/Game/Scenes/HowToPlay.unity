@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.127938, g: 0.117134176, b: 0.13167343, a: 1}
+  m_IndirectSpecularColor: {r: 0.12992734, g: 0.11946457, b: 0.1341179, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -204,7 +204,7 @@ Transform:
   - {fileID: 6623077059956826853}
   - {fileID: 1113287471}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &331375948
 GameObject:
@@ -442,7 +442,7 @@ Transform:
   - {fileID: 695833434}
   - {fileID: 1933650729}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &357320687
 PrefabInstance:
@@ -1538,7 +1538,7 @@ Transform:
   - {fileID: 1233011701}
   - {fileID: 2047807428}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1060713421
 GameObject:
@@ -6746,6 +6746,37 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1252952674}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1275630838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1275630839}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1275630839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275630838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.962325, y: -2.2162929, z: 1.2892237}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1442052519
 GameObject:
   m_ObjectHideFlags: 0
@@ -6886,7 +6917,7 @@ PrefabInstance:
     - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5500663763436769054, guid: b5f484da0057b4826a2e6fc02944e103,
         type: 3}
@@ -12702,17 +12733,17 @@ PrefabInstance:
     - target: {fileID: 6328266673051067143, guid: ab487983eb6ad12438afc89c3b26a286,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6328266673051067143, guid: ab487983eb6ad12438afc89c3b26a286,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6328266673051067143, guid: ab487983eb6ad12438afc89c3b26a286,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6328266673051067143, guid: ab487983eb6ad12438afc89c3b26a286,
         type: 3}
@@ -14121,8 +14152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7164962076461bd46b2e118474ed9902, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sucessParticles: {fileID: 1502613625}
-  crashParticles: {fileID: 1060713422}
   DamageReceived: 1
   success: {fileID: 8300000, guid: a88f202503587e447a3a534724d73b28, type: 3}
   crash: {fileID: 8300000, guid: 12d41bc63c24dee4fa5c296d1aca2d5d, type: 3}
@@ -14817,7 +14846,7 @@ Transform:
   - {fileID: 1060713424}
   - {fileID: 1502613627}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 2.63, y: -138.915, z: 2.698}
 --- !u!64 &5414723104032955178
 MeshCollider:
