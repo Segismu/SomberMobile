@@ -7,7 +7,7 @@ public class DamageController : MonoBehaviour
 {
     [SerializeField] private int Damage;
     [SerializeField] private HPController hpManager;
-    //[SerializeField] ParticleSystem bugExplosion;
+    [SerializeField] ParticleSystem bugExplosion;
     [SerializeField] float deathDelay = 1f;
 
 
@@ -22,7 +22,7 @@ public class DamageController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            //bugExplosion.Play();
+            bugExplosion.Play();
             DamageDealer();
             Intro();
         }
@@ -30,7 +30,7 @@ public class DamageController : MonoBehaviour
 
     void DamageDealer()
     {
-        
+
         hpManager.playerHP = hpManager.playerHP - Damage;
         hpManager.UpdateHP();
         Invoke("EnemyEraser", deathDelay);
@@ -42,9 +42,10 @@ public class DamageController : MonoBehaviour
 
     protected virtual void EnemyEraser()
     {
-        
+
         Destroy(gameObject);
     }
 
-    
+
 }
+

@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class LoadLevel : MonoBehaviour
 {
+
+    [SerializeField] ParticleSystem sucessParticles;
+    [SerializeField] ParticleSystem crashParticles;
     [SerializeField] private int DamageReceived;
     [SerializeField] AudioClip success;
     [SerializeField] AudioClip crash;
@@ -17,15 +20,15 @@ public class LoadLevel : MonoBehaviour
     AudioSource audioSource;
 
 
-    void Start() 
+    void Start()
     {
-       audioSource = GetComponent<AudioSource>();
-       impulse = transform.GetComponent<CinemachineImpulseSource>();
+        audioSource = GetComponent<AudioSource>();
+        impulse = transform.GetComponent<CinemachineImpulseSource>();
     }
-    
-    void OnCollisionEnter(Collision other) 
-    {   
-        switch(other.gameObject.tag)
+
+    void OnCollisionEnter(Collision other)
+    {
+        switch (other.gameObject.tag)
         {
             case "Obstacles":
                 StartCrashSequence();
@@ -41,6 +44,7 @@ public class LoadLevel : MonoBehaviour
     void StartSuccessSequence()
     {
         audioSource.PlayOneShot(success);
+        sucessParticles.Play();
         GetComponent<IsoCharacterController>().enabled = false;
         Invoke("LoadNextLevel", levelLoadDelay);
     }
@@ -51,13 +55,14 @@ public class LoadLevel : MonoBehaviour
     }
 
     void StartCrashSequence()
-{
-    Invoke("Shake", 0f);
-    audioSource.PlayOneShot(crash);
-    DamageDealer();
-}
+    {
+        Invoke("Shake", 0f);
+        audioSource.PlayOneShot(crash);
+        crashParticles.Play();
+        DamageDealer();
+    }
 
-void LoadNextLevel()
+    void LoadNextLevel()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         int nextSceneIndex = currentSceneIndex + 1;
@@ -74,10 +79,11 @@ void LoadNextLevel()
         hpManager.UpdateHP();
     }
 
-        public void ReloadLevel()
+    public void ReloadLevel()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         GetComponent<IsoCharacterController>().enabled = false;
         SceneManager.LoadScene(currentSceneIndex);
     }
 }
+

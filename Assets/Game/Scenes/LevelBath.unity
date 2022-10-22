@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12992734, g: 0.11946457, b: 0.1341179, a: 1}
+  m_IndirectSpecularColor: {r: 0.1290426, g: 0.120723344, b: 0.13347918, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1769,7 +1769,7 @@ Transform:
   - {fileID: 1080598462}
   - {fileID: 841229858}
   - {fileID: 1364051338}
-  - {fileID: 4388759432733547439}
+  - {fileID: 1351443377}
   - {fileID: 1834183587}
   - {fileID: 7262685853991042045}
   - {fileID: 1596812849}
@@ -3765,7 +3765,7 @@ PrefabInstance:
     - target: {fileID: 2831228583569818371, guid: 7b1f7229e12844836a0228de90cc20e8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.231191
+      value: -5.2311907
       objectReference: {fileID: 0}
     - target: {fileID: 2831228583569818371, guid: 7b1f7229e12844836a0228de90cc20e8,
         type: 3}
@@ -4587,6 +4587,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6601112713178210051, guid: a0fe3102d03a06b4abfa920dee458fb4,
     type: 3}
   m_PrefabInstance: {fileID: 103522492}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1351443377 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6768325128900025826, guid: 38b21ca1e4a424fd8b1419ea36239614,
+    type: 3}
+  m_PrefabInstance: {fileID: 4388759432733547438}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &1364051338 stripped
 RectTransform:
@@ -7169,14 +7175,13 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6768325128900025826, guid: 38b21ca1e4a424fd8b1419ea36239614,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38b21ca1e4a424fd8b1419ea36239614, type: 3}
---- !u!4 &4388759432733547439 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4388759434413667219, guid: 38b21ca1e4a424fd8b1419ea36239614,
-    type: 3}
-  m_PrefabInstance: {fileID: 4388759432733547438}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5050614558296788228
 PrefabInstance:
   m_ObjectHideFlags: 0
