@@ -7,6 +7,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 580381802914621668, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1009616880247359569, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1009616880247359581, guid: 33d227763b34343218ce725e5a941f6a,
         type: 3}
       propertyPath: m_MatchWidthOrHeight
@@ -99,6 +109,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Notification
       objectReference: {fileID: 0}
+    - target: {fileID: 1009616882010285891, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1537145339327065116, guid: 33d227763b34343218ce725e5a941f6a,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -138,6 +153,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 139
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785102124710325475, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7105664019391578052, guid: 33d227763b34343218ce725e5a941f6a,
         type: 3}

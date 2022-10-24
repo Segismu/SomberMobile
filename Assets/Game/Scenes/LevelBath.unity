@@ -832,9 +832,9 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!198 &463108050 stripped
+--- !u!198 &429173082 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 5722717832764980073, guid: 13b6b7ade60244918b843ec8692ef1a6,
+  m_CorrespondingSourceObject: {fileID: 1106096061725252265, guid: 13b6b7ade60244918b843ec8692ef1a6,
     type: 3}
   m_PrefabInstance: {fileID: 471357943}
   m_PrefabAsset: {fileID: 0}
@@ -845,6 +845,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1362601440, guid: 13b6b7ade60244918b843ec8692ef1a6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362601440, guid: 13b6b7ade60244918b843ec8692ef1a6, type: 3}
+      propertyPath: precomputeOutline
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1120487652671577951, guid: 13b6b7ade60244918b843ec8692ef1a6,
         type: 3}
       propertyPath: rb
@@ -865,6 +873,16 @@ PrefabInstance:
       propertyPath: hpManager
       value: 
       objectReference: {fileID: 1740519168}
+    - target: {fileID: 2203687431740799601, guid: 13b6b7ade60244918b843ec8692ef1a6,
+        type: 3}
+      propertyPath: crashParticles
+      value: 
+      objectReference: {fileID: 429173082}
+    - target: {fileID: 2293265459841162578, guid: 13b6b7ade60244918b843ec8692ef1a6,
+        type: 3}
+      propertyPath: outlineWidth
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4642970788397931874, guid: 13b6b7ade60244918b843ec8692ef1a6,
         type: 3}
       propertyPath: m_Name
@@ -935,7 +953,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1362601440, guid: 13b6b7ade60244918b843ec8692ef1a6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 13b6b7ade60244918b843ec8692ef1a6, type: 3}
 --- !u!95 &471357944 stripped
 Animator:
@@ -5067,7 +5086,7 @@ PrefabInstance:
         type: 3}
       propertyPath: bugExplosion
       value: 
-      objectReference: {fileID: 463108050}
+      objectReference: {fileID: 0}
     - target: {fileID: 4549064201760564804, guid: 31594d7006e8f154ca66d819aba32f3a,
         type: 3}
       propertyPath: m_Name
@@ -5842,7 +5861,7 @@ PrefabInstance:
         type: 3}
       propertyPath: bugExplosion
       value: 
-      objectReference: {fileID: 463108050}
+      objectReference: {fileID: 429173082}
     - target: {fileID: 4549064201760564804, guid: 31594d7006e8f154ca66d819aba32f3a,
         type: 3}
       propertyPath: m_Name
@@ -7743,15 +7762,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 646201169}
     m_Modifications:
+    - target: {fileID: 1746367448316956207, guid: 74b6eb71c8ca64c79a9848c53c2f8edc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2176180805427965591, guid: 74b6eb71c8ca64c79a9848c53c2f8edc,
         type: 3}
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2176180805427965594, guid: 74b6eb71c8ca64c79a9848c53c2f8edc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2176180806116606344, guid: 74b6eb71c8ca64c79a9848c53c2f8edc,
         type: 3}
       propertyPath: m_Name
       value: Level Notification
+      objectReference: {fileID: 0}
+    - target: {fileID: 2176180806116606344, guid: 74b6eb71c8ca64c79a9848c53c2f8edc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2176180806116606345, guid: 74b6eb71c8ca64c79a9848c53c2f8edc,
         type: 3}
@@ -7807,6 +7841,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4645874675301747240, guid: 74b6eb71c8ca64c79a9848c53c2f8edc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74b6eb71c8ca64c79a9848c53c2f8edc, type: 3}
