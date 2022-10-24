@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1009616880247359581, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1009616881463266728, guid: 33d227763b34343218ce725e5a941f6a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -96,13 +101,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1537145339327065116, guid: 33d227763b34343218ce725e5a941f6a,
         type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537145339327065116, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537145339327065116, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537145339327065116, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537145339327065116, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 93
+      value: -867
       objectReference: {fileID: 0}
     - target: {fileID: 1537145339327065116, guid: 33d227763b34343218ce725e5a941f6a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -271
+      value: 192
       objectReference: {fileID: 0}
     - target: {fileID: 2600045233355443734, guid: 33d227763b34343218ce725e5a941f6a,
         type: 3}
@@ -123,6 +148,16 @@ PrefabInstance:
 
         the
         nightmare.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7105664019391578052, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_margin.w
+      value: -113.18237
+      objectReference: {fileID: 0}
+    - target: {fileID: 7105664019391578052, guid: 33d227763b34343218ce725e5a941f6a,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -473.45923
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d227763b34343218ce725e5a941f6a, type: 3}
