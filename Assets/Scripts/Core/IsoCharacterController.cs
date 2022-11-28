@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class IsoCharacterController : MonoBehaviour
+public class IsoCharacterController : MonoBehaviour, IDataPersistence
 {
     [SerializeField] public float speed = 5;
     [SerializeField] public float turnSpeed = 360;
@@ -58,7 +58,18 @@ public class IsoCharacterController : MonoBehaviour
         }
         
     }
+
+    public void LoadData(GameData data)
+    {
+        this.transform.position = data.playerPosition;
+    }
+
+    public void SaveData(GameData data)
+    {
+        data.playerPosition = this.transform.position;
+    }
 }
+
 
 public static class Helpers
 {
