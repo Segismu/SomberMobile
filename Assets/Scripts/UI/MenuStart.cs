@@ -7,6 +7,7 @@ public class MenuStart : MonoBehaviour
 {
     [SerializeField] Canvas startMenuCanvas;
 
+    private int sceneToContinue;
 
     void Awake()
     {
@@ -16,12 +17,21 @@ public class MenuStart : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("Cerraste la aplicación");
     }
 
     public void StartGame()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void ContinueGame()
+    {
+        sceneToContinue = PlayerPrefs.GetInt("SavedScene");
+
+        if (sceneToContinue != 0)
+            SceneManager.LoadScene(sceneToContinue);
+        else
+            return;
     }
 
 
