@@ -7,9 +7,10 @@ OcclusionCullingSettings:
   m_OcclusionBakeSettings:
     smallestOccluder: 5
     smallestHole: 0.25
-    backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+    backfaceThreshold: 10
+  m_SceneGUID: 1a5ec1770a2b5614cb40ef070236a782
+  m_OcclusionCullingData: {fileID: 36300000, guid: 1b85c2113db6a45adbcd0dd692a8ad74,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -148,10 +149,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153217234}
     m_Modifications:
+    - target: {fileID: 6601112713178039073, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
       propertyPath: m_Name
       value: ShowerMirror_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6601112713178210049, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
@@ -384,10 +395,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 188458064}
     m_Modifications:
+    - target: {fileID: 444954908020564956, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 444954908020564958, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
         type: 3}
       propertyPath: m_Name
       value: Wall_05 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 444954908020564958, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 444954908020867068, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
         type: 3}
@@ -528,7 +549,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &188458064
 Transform:
@@ -599,7 +620,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &259807635
 Transform:
@@ -936,7 +957,7 @@ PrefabInstance:
     - target: {fileID: 5414723104927188952, guid: 13b6b7ade60244918b843ec8692ef1a6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5414723104927188952, guid: 13b6b7ade60244918b843ec8692ef1a6,
         type: 3}
@@ -1139,7 +1160,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &500020439
 Transform:
@@ -1267,6 +1288,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Obstacles
       objectReference: {fileID: 0}
+    - target: {fileID: 8660630948673182337, guid: d232a1271b041ed4e8a128504866ac71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660630948673182339, guid: d232a1271b041ed4e8a128504866ac71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8660630948673275553, guid: d232a1271b041ed4e8a128504866ac71,
         type: 3}
       propertyPath: m_RootOrder
@@ -1340,6 +1371,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d84a82b222e9ed046bf79479f312b067, type: 3}
       propertyPath: m_Name
       value: Flower_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d84a82b222e9ed046bf79479f312b067, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: d84a82b222e9ed046bf79479f312b067, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d84a82b222e9ed046bf79479f312b067, type: 3}
       propertyPath: m_RootOrder
@@ -1415,6 +1454,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 1ddab90c38640a640b60344aea5fbacf, type: 3}
       propertyPath: m_Name
       value: ShowerCarpet_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1ddab90c38640a640b60344aea5fbacf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 1ddab90c38640a640b60344aea5fbacf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1ddab90c38640a640b60344aea5fbacf, type: 3}
       propertyPath: m_RootOrder
@@ -1533,7 +1580,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.49, y: -0.04, z: 0.79}
+  m_Size: {x: 0.49, y: 1, z: 0.79}
   m_Center: {x: 0.0013312906, y: 0.03, z: -0.0044931173}
 --- !u!65 &534721246
 BoxCollider:
@@ -1565,7 +1612,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &536973248
 Transform:
@@ -1769,7 +1816,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &576537499
 Transform:
@@ -1786,9 +1833,8 @@ Transform:
   - {fileID: 188458064}
   - {fileID: 908053247}
   - {fileID: 773151892}
-  - {fileID: 1520196915}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &606067652 stripped
 Transform:
@@ -1848,10 +1894,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153217234}
     m_Modifications:
+    - target: {fileID: 6601112713178039073, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
       propertyPath: m_Name
       value: ShowerMirror_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6601112713178210051, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
@@ -1928,10 +1984,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 188458064}
     m_Modifications:
+    - target: {fileID: 444954908020564956, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 444954908020564958, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
         type: 3}
       propertyPath: m_Name
       value: Wall_05 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 444954908020564958, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 444954908020867068, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
         type: 3}
@@ -2071,7 +2137,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &773151892
 Transform:
@@ -2395,7 +2461,7 @@ Transform:
   - {fileID: 1256969154}
   - {fileID: 2018755956}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &907992973
 PrefabInstance:
@@ -2404,10 +2470,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153217234}
     m_Modifications:
+    - target: {fileID: 6601112713178039073, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
       propertyPath: m_Name
       value: ShowerMirror_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6601112713178210049, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
@@ -2532,7 +2608,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &908053247
 Transform:
@@ -2568,7 +2644,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &949975708
 Transform:
@@ -2771,7 +2847,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1066228427
 Transform:
@@ -2905,7 +2981,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1080273364
 Transform:
@@ -3345,7 +3421,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1126385849
 Transform:
@@ -3433,10 +3509,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153217234}
     m_Modifications:
+    - target: {fileID: 6601112713178039073, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
       propertyPath: m_Name
       value: ShowerMirror_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6601112713178210051, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
@@ -3520,7 +3606,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1153217234
 Transform:
@@ -3564,10 +3650,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153217234}
     m_Modifications:
+    - target: {fileID: 6601112713178039073, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
       propertyPath: m_Name
       value: ShowerMirror_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6601112713178210049, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
@@ -3659,10 +3755,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 188458064}
     m_Modifications:
+    - target: {fileID: 444954908020564956, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 444954908020564958, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
         type: 3}
       propertyPath: m_Name
       value: Wall_05 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 444954908020564958, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 444954908020867068, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
         type: 3}
@@ -3983,7 +4089,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1238155384
 Transform:
@@ -4081,6 +4187,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Obstacles
       objectReference: {fileID: 0}
+    - target: {fileID: 8660630948673182337, guid: d232a1271b041ed4e8a128504866ac71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660630948673182339, guid: d232a1271b041ed4e8a128504866ac71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8660630948673275553, guid: d232a1271b041ed4e8a128504866ac71,
         type: 3}
       propertyPath: m_RootOrder
@@ -4166,6 +4282,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 773151892}
     m_Modifications:
+    - target: {fileID: 1851364121704451010, guid: eeb893048d5dcc24d8c44ebdc886d8b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 3738435674017628649, guid: eeb893048d5dcc24d8c44ebdc886d8b6,
         type: 3}
       propertyPath: myEvents.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4180,6 +4301,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PisoMalo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754396993737123072, guid: eeb893048d5dcc24d8c44ebdc886d8b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3754396993737123075, guid: eeb893048d5dcc24d8c44ebdc886d8b6,
         type: 3}
@@ -4321,7 +4447,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!64 &1251372590
 MeshCollider:
@@ -4353,7 +4479,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!33 &1252373039
 MeshFilter:
@@ -4446,10 +4572,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 188458064}
     m_Modifications:
+    - target: {fileID: 444954908020564956, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 444954908020564958, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
         type: 3}
       propertyPath: m_Name
       value: Wall_05 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 444954908020564958, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 444954908020867068, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
         type: 3}
@@ -4581,6 +4717,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shower_01
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 85482ce4df610004da9846ded62a13ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 85482ce4df610004da9846ded62a13ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 85482ce4df610004da9846ded62a13ab, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4649,7 +4793,7 @@ PrefabInstance:
     - target: {fileID: 3428012797448713465, guid: bdac7e75ebdf149aea13d76edfbfd9f4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3428012797448713465, guid: bdac7e75ebdf149aea13d76edfbfd9f4,
         type: 3}
@@ -4773,7 +4917,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1395882161
 Transform:
@@ -4863,6 +5007,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 37d5e5876a58b2a4a831aeebbe30154e, type: 3}
       propertyPath: m_Name
       value: Bath
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 37d5e5876a58b2a4a831aeebbe30154e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 37d5e5876a58b2a4a831aeebbe30154e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37d5e5876a58b2a4a831aeebbe30154e, type: 3}
       propertyPath: m_RootOrder
@@ -4968,6 +5120,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 52d8ffb713448c0479e1d362c8dcce5a, type: 3}
       propertyPath: m_Name
       value: Flower_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52d8ffb713448c0479e1d362c8dcce5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 52d8ffb713448c0479e1d362c8dcce5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52d8ffb713448c0479e1d362c8dcce5a, type: 3}
       propertyPath: m_RootOrder
@@ -5090,8 +5250,8 @@ Transform:
   - {fileID: 534721241}
   - {fileID: 149680706}
   - {fileID: 1759182229}
-  m_Father: {fileID: 576537499}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1533680712 stripped
 MonoBehaviour:
@@ -5210,6 +5370,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EnemyNinja (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549064201760564804, guid: 31594d7006e8f154ca66d819aba32f3a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549064201760564806, guid: 31594d7006e8f154ca66d819aba32f3a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4549064201760799332, guid: 31594d7006e8f154ca66d819aba32f3a,
         type: 3}
@@ -5425,7 +5595,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1586374801
 Transform:
@@ -5523,7 +5693,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1589988951
 Transform:
@@ -5955,6 +6125,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyNinja
       objectReference: {fileID: 0}
+    - target: {fileID: 4549064201760564804, guid: 31594d7006e8f154ca66d819aba32f3a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549064201760564806, guid: 31594d7006e8f154ca66d819aba32f3a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4549064201760799332, guid: 31594d7006e8f154ca66d819aba32f3a,
         type: 3}
       propertyPath: m_RootOrder
@@ -6019,10 +6199,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 188458064}
     m_Modifications:
+    - target: {fileID: 444954908020564956, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 444954908020564958, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
         type: 3}
       propertyPath: m_Name
       value: Wall_05 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 444954908020564958, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 444954908020867068, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
         type: 3}
@@ -6225,10 +6415,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 188458064}
     m_Modifications:
+    - target: {fileID: 444954908020564956, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 444954908020564958, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
         type: 3}
       propertyPath: m_Name
       value: Wall_05 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 444954908020564958, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 444954908020867068, guid: 650dd8fdec52b5a448a4e3017ab0da7b,
         type: 3}
@@ -6356,10 +6556,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153217234}
     m_Modifications:
+    - target: {fileID: 6601112713178039073, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
       propertyPath: m_Name
       value: ShowerMirror_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6601112713178210049, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
@@ -6737,6 +6947,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Obstacles
       objectReference: {fileID: 0}
+    - target: {fileID: 8660630948673182337, guid: d232a1271b041ed4e8a128504866ac71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660630948673182339, guid: d232a1271b041ed4e8a128504866ac71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8660630948673275553, guid: d232a1271b041ed4e8a128504866ac71,
         type: 3}
       propertyPath: m_RootOrder
@@ -6868,10 +7088,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -67.241
       objectReference: {fileID: 0}
+    - target: {fileID: 5383150232984776145, guid: 5797fecd316f08041a2b81535b6b1a32,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 5383150232984776147, guid: 5797fecd316f08041a2b81535b6b1a32,
         type: 3}
       propertyPath: m_Name
       value: Toothbrush_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5383150232984776147, guid: 5797fecd316f08041a2b81535b6b1a32,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5797fecd316f08041a2b81535b6b1a32, type: 3}
@@ -6882,10 +7112,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153217234}
     m_Modifications:
+    - target: {fileID: 6827154683750647924, guid: 8f283147f3faba845912ae88b7f9b4ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6827154683750647926, guid: 8f283147f3faba845912ae88b7f9b4ef,
         type: 3}
       propertyPath: m_Name
       value: Mirror_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6827154683750647926, guid: 8f283147f3faba845912ae88b7f9b4ef,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6827154683750880342, guid: 8f283147f3faba845912ae88b7f9b4ef,
         type: 3}
@@ -7026,10 +7266,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4687052077903743300, guid: d08d11510d142ea40b34f0a0c1fa9f9e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4687052077903743302, guid: d08d11510d142ea40b34f0a0c1fa9f9e,
         type: 3}
       propertyPath: m_Name
       value: ShowerPart_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687052077903743302, guid: d08d11510d142ea40b34f0a0c1fa9f9e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d08d11510d142ea40b34f0a0c1fa9f9e, type: 3}
@@ -7105,6 +7355,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slippers
       objectReference: {fileID: 0}
+    - target: {fileID: 5965380667141150672, guid: f1cbd63b8f093504eaf8da275460a3d0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5965380667141150674, guid: f1cbd63b8f093504eaf8da275460a3d0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1cbd63b8f093504eaf8da275460a3d0, type: 3}
 --- !u!4 &2620646963745686796 stripped
@@ -7130,6 +7390,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rangehood
+      objectReference: {fileID: 0}
+    - target: {fileID: 8902721996450275993, guid: 2ccd19584a0d7124fa56eeeca19eb8c9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8902721996450275995, guid: 2ccd19584a0d7124fa56eeeca19eb8c9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8902721996450578105, guid: 2ccd19584a0d7124fa56eeeca19eb8c9,
         type: 3}
@@ -7285,10 +7555,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153217234}
     m_Modifications:
+    - target: {fileID: 3264272002477440121, guid: e9ad258507f3cf048b237435b906a76c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 3264272002477440123, guid: e9ad258507f3cf048b237435b906a76c,
         type: 3}
       propertyPath: m_Name
       value: SoapBottle_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3264272002477440123, guid: e9ad258507f3cf048b237435b906a76c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3264272002477465691, guid: e9ad258507f3cf048b237435b906a76c,
         type: 3}
@@ -7363,6 +7643,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 108f1aa41f05dad47b2ea655ebef04d3, type: 3}
       propertyPath: m_Name
       value: ToiletPaper
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 108f1aa41f05dad47b2ea655ebef04d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 108f1aa41f05dad47b2ea655ebef04d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 108f1aa41f05dad47b2ea655ebef04d3, type: 3}
       propertyPath: m_RootOrder
@@ -7754,10 +8042,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153217234}
     m_Modifications:
+    - target: {fileID: 6601112713178039073, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
       propertyPath: m_Name
       value: ShowerMirror_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601112713178039075, guid: a0fe3102d03a06b4abfa920dee458fb4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6601112713178210051, guid: a0fe3102d03a06b4abfa920dee458fb4,
         type: 3}
@@ -7949,6 +8247,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Washer_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462843879964435672, guid: c1ec0e9197b8b8e44889db3a2c4dbf30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462843879964435674, guid: c1ec0e9197b8b8e44889db3a2c4dbf30,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3462843879964670200, guid: c1ec0e9197b8b8e44889db3a2c4dbf30,
         type: 3}
@@ -8275,10 +8583,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 92.495
       objectReference: {fileID: 0}
+    - target: {fileID: 6671980434553705765, guid: 3be59abfdba381b4992c8345dadd3c19,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 6671980434553705767, guid: 3be59abfdba381b4992c8345dadd3c19,
         type: 3}
       propertyPath: m_Name
       value: Toothbrush_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671980434553705767, guid: 3be59abfdba381b4992c8345dadd3c19,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8818995568245626087, guid: 3be59abfdba381b4992c8345dadd3c19,
         type: 3}
@@ -8304,6 +8622,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BoatPesadilla
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660630948673182337, guid: d232a1271b041ed4e8a128504866ac71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660630948673182339, guid: d232a1271b041ed4e8a128504866ac71,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8660630948673275553, guid: d232a1271b041ed4e8a128504866ac71,
         type: 3}
@@ -8369,6 +8697,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153217234}
     m_Modifications:
+    - target: {fileID: 1894849842140658944, guid: 251c86cb9e42b8e4babe14cead11b1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894849842140658946, guid: 251c86cb9e42b8e4babe14cead11b1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2389519921996874617, guid: 251c86cb9e42b8e4babe14cead11b1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2389519921996874619, guid: 251c86cb9e42b8e4babe14cead11b1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241798654174859688, guid: 251c86cb9e42b8e4babe14cead11b1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241798654174859690, guid: 251c86cb9e42b8e4babe14cead11b1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4719923115395628039, guid: 251c86cb9e42b8e4babe14cead11b1c6,
         type: 3}
       propertyPath: m_Size.y
@@ -8380,10 +8738,30 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: 01814c9df38c92a478dbd2ad1bd86edd,
         type: 2}
+    - target: {fileID: 4723148466750616657, guid: 251c86cb9e42b8e4babe14cead11b1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723148466750616659, guid: 251c86cb9e42b8e4babe14cead11b1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 5600001592459357308, guid: 251c86cb9e42b8e4babe14cead11b1c6,
         type: 3}
       propertyPath: m_Name
       value: ShowerTable_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5600001592459357308, guid: 251c86cb9e42b8e4babe14cead11b1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5600001592459357310, guid: 251c86cb9e42b8e4babe14cead11b1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5600001592459718748, guid: 251c86cb9e42b8e4babe14cead11b1c6,
         type: 3}
@@ -8439,6 +8817,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046364785756248540, guid: 251c86cb9e42b8e4babe14cead11b1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046364785756248542, guid: 251c86cb9e42b8e4babe14cead11b1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 251c86cb9e42b8e4babe14cead11b1c6, type: 3}

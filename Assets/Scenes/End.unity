@@ -7,9 +7,10 @@ OcclusionCullingSettings:
   m_OcclusionBakeSettings:
     smallestOccluder: 5
     smallestHole: 0.25
-    backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+    backfaceThreshold: 10
+  m_SceneGUID: 0bb28f769ed91c9488d9d8496cdecc77
+  m_OcclusionCullingData: {fileID: 36300000, guid: 68f739c9af4934372a2f584b06019048,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -38,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12992734, g: 0.11946457, b: 0.1341179, a: 1}
+  m_IndirectSpecularColor: {r: 0.1290426, g: 0.120723344, b: 0.13347918, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14160,6 +14161,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7164962076461bd46b2e118474ed9902, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sucessParticles: {fileID: 0}
+  crashParticles: {fileID: 0}
   DamageReceived: 1
   success: {fileID: 8300000, guid: a88f202503587e447a3a534724d73b28, type: 3}
   crash: {fileID: 8300000, guid: 12d41bc63c24dee4fa5c296d1aca2d5d, type: 3}
