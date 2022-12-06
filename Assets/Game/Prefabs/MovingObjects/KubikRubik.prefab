@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7988242944819387752}
   - component: {fileID: 7988242944819513326}
-  - component: {fileID: 5777513560376712834}
+  - component: {fileID: 7988242945290237220}
   m_Layer: 0
   m_Name: KubikRubik
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7988242944819544392}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.212, y: 1.334, z: -3.8582032}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
@@ -47,7 +47,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.05786128, y: 0.0046145916, z: 0.05704471}
   m_Center: {x: 0.0005535126, y: 0.05205452, z: -0.00051563384}
---- !u!114 &5777513560376712834
+--- !u!114 &7988242945290237220
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,8 +59,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e11cb44d3cf4ef49aa1d0ddf60c7447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingPosition: {x: 0, y: 0, z: 0}
-  endPosition: {x: 0, y: 0, z: 0}
+  startingPosition: {x: 13.108, y: -1.31, z: -3.61}
+  endPosition: {x: 13.108, y: 1.533, z: -3.61}
   speed: 0.3
 --- !u!1 &7988242944819544394
 GameObject:
