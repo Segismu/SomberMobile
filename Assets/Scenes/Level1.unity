@@ -2499,6 +2499,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1106096061745181193, guid: 13b6b7ade60244918b843ec8692ef1a6,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2203687431740799601, guid: 13b6b7ade60244918b843ec8692ef1a6,
         type: 3}
       propertyPath: m_Enabled
