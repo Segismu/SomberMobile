@@ -13,7 +13,6 @@ public class HPController : MonoBehaviour
     public void Start()
     {
         UpdateHP();
-        loadlvl = GameObject.Find("Testis").GetComponent<LoadLevel>();
     }
 
     public void UpdateHP()
@@ -42,6 +41,5 @@ public class HPController : MonoBehaviour
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
-        loadlvl.Invunerable();
     }
 }

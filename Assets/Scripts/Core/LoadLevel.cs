@@ -26,6 +26,8 @@ public class LoadLevel : MonoBehaviour
     [SerializeField] float iFramesDuration;
     [SerializeField] int nOfFlashes;
 
+    Color baseColor;
+
 
     void Start()
     {

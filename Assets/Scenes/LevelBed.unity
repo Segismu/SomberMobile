@@ -5935,6 +5935,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1231542978064910926, guid: c3b3e7a2529320a4795a12e13b139495,
         type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231542978064910926, guid: c3b3e7a2529320a4795a12e13b139495,
+        type: 3}
       propertyPath: m_TagString
       value: Obstacles
       objectReference: {fileID: 0}
@@ -11415,6 +11420,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1231542978064910926, guid: c3b3e7a2529320a4795a12e13b139495,
         type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231542978064910926, guid: c3b3e7a2529320a4795a12e13b139495,
+        type: 3}
       propertyPath: m_TagString
       value: Obstacles
       objectReference: {fileID: 0}
@@ -12143,6 +12153,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PC_Mouse (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231542978064910926, guid: c3b3e7a2529320a4795a12e13b139495,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1231542978064910926, guid: c3b3e7a2529320a4795a12e13b139495,
         type: 3}
@@ -14277,6 +14292,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PC_Mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231542978064910926, guid: c3b3e7a2529320a4795a12e13b139495,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1231542978064910926, guid: c3b3e7a2529320a4795a12e13b139495,
         type: 3}

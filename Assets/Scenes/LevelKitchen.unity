@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1290426, g: 0.120723344, b: 0.13347918, a: 1}
+  m_IndirectSpecularColor: {r: 0.12910101, g: 0.1207742, b: 0.13353121, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2546,6 +2546,10 @@ PrefabInstance:
       value: Donut_02
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ffa31678a841c9b43b7f055316d7031a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ffa31678a841c9b43b7f055316d7031a, type: 3}
       propertyPath: m_TagString
       value: Obstacles
       objectReference: {fileID: 0}
@@ -2966,6 +2970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cup_07 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609435132619730395, guid: cbd1f1b500584d44882d8e0b09b89adb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7609435132619730395, guid: cbd1f1b500584d44882d8e0b09b89adb,
         type: 3}

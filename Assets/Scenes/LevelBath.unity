@@ -6337,6 +6337,11 @@ PrefabInstance:
       objectReference: {fileID: 1740519168}
     - target: {fileID: 4549064201386484151, guid: 31594d7006e8f154ca66d819aba32f3a,
         type: 3}
+      propertyPath: deathDelay
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549064201386484151, guid: 31594d7006e8f154ca66d819aba32f3a,
+        type: 3}
       propertyPath: bugExplosion
       value: 
       objectReference: {fileID: 429173082}
