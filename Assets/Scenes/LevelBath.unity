@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1290426, g: 0.120723344, b: 0.13347918, a: 1}
+  m_IndirectSpecularColor: {r: 0.12910101, g: 0.1207742, b: 0.13353121, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -941,9 +941,19 @@ PrefabInstance:
       objectReference: {fileID: 1740519168}
     - target: {fileID: 2203687431740799601, guid: 13b6b7ade60244918b843ec8692ef1a6,
         type: 3}
+      propertyPath: nOfFlashes
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2203687431740799601, guid: 13b6b7ade60244918b843ec8692ef1a6,
+        type: 3}
       propertyPath: crashParticles
       value: 
       objectReference: {fileID: 429173082}
+    - target: {fileID: 2203687431740799601, guid: 13b6b7ade60244918b843ec8692ef1a6,
+        type: 3}
+      propertyPath: iFramesDuration
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2293265459841162578, guid: 13b6b7ade60244918b843ec8692ef1a6,
         type: 3}
       propertyPath: outlineWidth
@@ -1282,6 +1292,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BoatPesadilla (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660630948673182337, guid: d232a1271b041ed4e8a128504866ac71,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8660630948673182337, guid: d232a1271b041ed4e8a128504866ac71,
         type: 3}
@@ -4204,6 +4219,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8660630948673182337, guid: d232a1271b041ed4e8a128504866ac71,
         type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660630948673182337, guid: d232a1271b041ed4e8a128504866ac71,
+        type: 3}
       propertyPath: m_TagString
       value: Obstacles
       objectReference: {fileID: 0}
@@ -5518,6 +5538,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4549064201760564804, guid: 31594d7006e8f154ca66d819aba32f3a,
         type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549064201760564804, guid: 31594d7006e8f154ca66d819aba32f3a,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -6319,6 +6344,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EnemyNinja
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549064201760564804, guid: 31594d7006e8f154ca66d819aba32f3a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4549064201760564804, guid: 31594d7006e8f154ca66d819aba32f3a,
         type: 3}
@@ -7139,6 +7169,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8660630948673182337, guid: d232a1271b041ed4e8a128504866ac71,
         type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660630948673182337, guid: d232a1271b041ed4e8a128504866ac71,
+        type: 3}
       propertyPath: m_TagString
       value: Obstacles
       objectReference: {fileID: 0}
@@ -7618,6 +7653,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Slippers
+      objectReference: {fileID: 0}
+    - target: {fileID: 5965380667141150672, guid: f1cbd63b8f093504eaf8da275460a3d0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5965380667141150672, guid: f1cbd63b8f093504eaf8da275460a3d0,
         type: 3}
@@ -8645,6 +8685,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BoatPesadilla
+      objectReference: {fileID: 0}
+    - target: {fileID: 8660630948673182337, guid: d232a1271b041ed4e8a128504866ac71,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8660630948673182337, guid: d232a1271b041ed4e8a128504866ac71,
         type: 3}

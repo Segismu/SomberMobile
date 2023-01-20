@@ -1,3 +1,4 @@
+using System.Collections;
 using Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,6 +7,8 @@ using UnityEngine.UI;
 
 public class LoadLevel : MonoBehaviour
 {
+    [HideInInspector] public HPController hpManager;
+    public int playerHP;
 
     [SerializeField] ParticleSystem sucessParticles;
     [SerializeField] ParticleSystem crashParticles;
@@ -14,10 +17,14 @@ public class LoadLevel : MonoBehaviour
     [SerializeField] AudioClip crash;
 
     CinemachineImpulseSource impulse;
-    public HPController hpManager;
-    public int playerHP;
+
     float levelLoadDelay = 1.5f;
+
     AudioSource audioSource;
+
+    [Header("immunityFrames")]
+    [SerializeField] float iFramesDuration;
+    [SerializeField] int nOfFlashes;
 
 
     void Start()
@@ -77,13 +84,20 @@ public class LoadLevel : MonoBehaviour
     {
         hpManager.playerHP = hpManager.playerHP - DamageReceived;
         hpManager.UpdateHP();
+        StartCoroutine(Invunerable());
     }
 
-    public void ReloadLevel()
+    public IEnumerator Invunerable()
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        GetComponent<IsoCharacterController>().enabled = false;
-        SceneManager.LoadScene(currentSceneIndex);
+        Physics.IgnoreLayerCollision(3,10,true);
+
+        for (int i = 0; i < nOfFlashes; i++)
+        {
+            yield return new WaitForSeconds(iFramesDuration / (nOfFlashes * 2));
+        }
+
+        Physics.IgnoreLayerCollision(3, 10,false);
     }
+
 }
 
