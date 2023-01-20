@@ -29,6 +29,7 @@ public class LoadLevel : MonoBehaviour
 
     void Start()
     {
+        Physics.IgnoreLayerCollision(3, 10, false);
         audioSource = GetComponent<AudioSource>();
         impulse = transform.GetComponent<CinemachineImpulseSource>();
     }
