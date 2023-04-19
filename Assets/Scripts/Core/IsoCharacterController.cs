@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class IsoCharacterController : MonoBehaviour, IDataPersistence
 {
-    [SerializeField] public float speed = 5;
-    [SerializeField] public float turnSpeed = 360;
-    [SerializeField] Animator runAnim;
+    [SerializeField] float speed = 5;
+    [SerializeField] float turnSpeed = 360;
 
-    Rigidbody rb;
+    [HideInInspector] public FixedJoystick joystick;
+
+    private Animator runAnim;
+    private Rigidbody rb;
 
     Vector3 getInput = Vector3.zero;
-    public FixedJoystick joystick;
-
+    
     private void Start() 
     {
         runAnim = GetComponent<Animator>();
@@ -31,7 +32,6 @@ public class IsoCharacterController : MonoBehaviour, IDataPersistence
 
     private void GatherInput()
     {
-
         getInput = new Vector3(joystick.input.x, 0, joystick.input.y);
     }
 
@@ -46,7 +46,7 @@ public class IsoCharacterController : MonoBehaviour, IDataPersistence
 
     private void Move()
     {
-        rb.MovePosition(transform.position + transform.forward * getInput.normalized.magnitude * speed * Time.deltaTime);
+        rb.MovePosition(transform.position + getInput.normalized.magnitude * speed * Time.deltaTime * transform.forward);
 
         if (getInput == Vector3.zero)
         {

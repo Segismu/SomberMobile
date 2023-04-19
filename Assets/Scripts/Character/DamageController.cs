@@ -5,18 +5,12 @@ using UnityEngine;
 
 public class DamageController : MonoBehaviour
 {
-    [SerializeField] private int Damage;
     [SerializeField] private HPController hpManager;
-    [SerializeField] ParticleSystem bugExplosion;
+
+    [SerializeField] private int Damage;
     [SerializeField] float deathDelay = 1f;
 
-
-    protected virtual void Intro()
-
-    {
-        Debug.Log("Te pego objeto corriente de casa.");
-    }
-
+    [SerializeField] ParticleSystem bugExplosion;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -24,7 +18,6 @@ public class DamageController : MonoBehaviour
         {
             bugExplosion.Play();
             DamageDealer();
-            Intro();
         }
     }
 
@@ -34,15 +27,10 @@ public class DamageController : MonoBehaviour
         hpManager.playerHP = hpManager.playerHP - Damage;
         hpManager.UpdateHP();
         Invoke("EnemyEraser", deathDelay);
-
-        //Esto es provisorio. La idea es que los bichos vivan mas
-
-
     }
 
     protected virtual void EnemyEraser()
     {
-
         Destroy(gameObject);
     }
 

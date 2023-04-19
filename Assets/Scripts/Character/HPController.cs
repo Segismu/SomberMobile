@@ -6,7 +6,7 @@ public class HPController : MonoBehaviour
 {
     public int playerHP = 7;
 
-    public LoadLevel loadlvl;
+    public GameManager loadlvl;
 
     [SerializeField] Image[] hearts;
 

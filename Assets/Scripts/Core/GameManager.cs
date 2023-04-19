@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
-public class LoadLevel : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     [HideInInspector] public HPController hpManager;
-    public int playerHP;
+
+    [SerializeField] private int DamageReceived;
 
     [SerializeField] ParticleSystem sucessParticles;
     [SerializeField] ParticleSystem crashParticles;
-    [SerializeField] private int DamageReceived;
     [SerializeField] AudioClip success;
     [SerializeField] AudioClip crash;
 
