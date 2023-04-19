@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
 
     AudioSource audioSource;
 
-    [Header("immunityFrames")]
+    [Header("ImmunityFrames")]
     [SerializeField] float iFramesDuration;
     [SerializeField] int nOfFlashes;
 
@@ -41,6 +41,9 @@ public class GameManager : MonoBehaviour
         switch (other.gameObject.tag)
         {
             case "Obstacles":
+                StartCrashSequence();
+                break;
+            case "EnemyObj":
                 StartCrashSequence();
                 break;
             case "Finish":

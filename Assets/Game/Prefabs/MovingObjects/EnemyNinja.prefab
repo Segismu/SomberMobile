@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4549064201386484150}
   - component: {fileID: 308908271112320347}
   - component: {fileID: 4549064201386484149}
-  - component: {fileID: 4549064201386484151}
   - component: {fileID: 2839667733181712643}
   m_Layer: 0
   m_Name: EnemyNinja
@@ -81,22 +80,6 @@ MonoBehaviour:
     m_Bits: 8
   player: {fileID: 0}
   movSpeed: 2
---- !u!114 &4549064201386484151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4549064201760564804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abbee4086e3be45cc9dfae4e8b96b8fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Damage: 1
-  hpManager: {fileID: 0}
-  bugExplosion: {fileID: 0}
-  deathDelay: 0.1
 --- !u!114 &2839667733181712643
 MonoBehaviour:
   m_ObjectHideFlags: 0

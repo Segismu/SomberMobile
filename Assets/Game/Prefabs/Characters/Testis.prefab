@@ -1010,7 +1010,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   turnSpeed: 800
-  runAnim: {fileID: 0}
   joystick: {fileID: 0}
 --- !u!114 &2203687431740799601
 MonoBehaviour:
@@ -1024,13 +1023,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7164962076461bd46b2e118474ed9902, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hpManager: {fileID: 0}
+  DamageReceived: 1
   sucessParticles: {fileID: 3736605936533519339}
   crashParticles: {fileID: 1106096061725252265}
-  DamageReceived: 1
   success: {fileID: 8300000, guid: a88f202503587e447a3a534724d73b28, type: 3}
   crash: {fileID: 8300000, guid: 12d41bc63c24dee4fa5c296d1aca2d5d, type: 3}
-  hpManager: {fileID: 0}
-  playerHP: 7
+  iFramesDuration: 1
+  nOfFlashes: 1
 --- !u!114 &8440525477239232048
 MonoBehaviour:
   m_ObjectHideFlags: 0
