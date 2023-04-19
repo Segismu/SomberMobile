@@ -9,16 +9,16 @@ public class GameManager : MonoBehaviour
 {
     [HideInInspector] public HPController hpManager;
 
-    [SerializeField] private int DamageReceived;
+    [SerializeField] int DamageReceived;
 
     [SerializeField] ParticleSystem sucessParticles;
     [SerializeField] ParticleSystem crashParticles;
     [SerializeField] AudioClip success;
     [SerializeField] AudioClip crash;
 
-    CinemachineImpulseSource impulse;
-
     float levelLoadDelay = 1.5f;
+
+    CinemachineImpulseSource impulse;
 
     AudioSource audioSource;
 

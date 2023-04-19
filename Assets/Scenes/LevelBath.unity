@@ -6325,6 +6325,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 83259012}
+    - target: {fileID: 4549064201386484150, guid: 31594d7006e8f154ca66d819aba32f3a,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549064201386484150, guid: 31594d7006e8f154ca66d819aba32f3a,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.12
+      objectReference: {fileID: 0}
     - target: {fileID: 4549064201386484151, guid: 31594d7006e8f154ca66d819aba32f3a,
         type: 3}
       propertyPath: Damage
@@ -6638,6 +6648,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1834183586}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1840078954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4549064201760564804, guid: 31594d7006e8f154ca66d819aba32f3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1824345986}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1840078960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840078954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbee4086e3be45cc9dfae4e8b96b8fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathDelay: 1
 --- !u!1001 &1950250340
 PrefabInstance:
   m_ObjectHideFlags: 0
