@@ -7137,16 +7137,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Save Carpet
       objectReference: {fileID: 0}
-    - target: {fileID: 8779277058869771852, guid: 234042386bc294f2680509002383611a,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8779277058869771852, guid: 234042386bc294f2680509002383611a,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 234042386bc294f2680509002383611a, type: 3}
 --- !u!1001 &2123512216
