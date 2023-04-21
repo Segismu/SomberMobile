@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1551638042242547169}
   m_Layer: 5
-  m_Name: Level Notification
+  m_Name: AchivementNotification
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 1551638043077895580}
   - component: {fileID: 1551638043077895581}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: AchDescription
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98,11 +98,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Find the keys to POP
-
-    the barriers and escape
-
-    the nightmare.'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6448e7e7cff44409881ed614f0ae7ae9, type: 2}
   m_sharedMaterial: {fileID: 7791070072749293390, guid: 6448e7e7cff44409881ed614f0ae7ae9,
@@ -138,7 +134,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -186,7 +182,7 @@ GameObject:
   - component: {fileID: 1551638043630011348}
   - component: {fileID: 1551638043630011349}
   m_Layer: 5
-  m_Name: Instructions
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
