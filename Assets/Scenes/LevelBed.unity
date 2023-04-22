@@ -13897,6 +13897,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AchivementNotification
       objectReference: {fileID: 0}
+    - target: {fileID: 1551638042592919146, guid: ad75bcc54a1544e0c86a759cbd93177b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad75bcc54a1544e0c86a759cbd93177b, type: 3}
 --- !u!4 &2564966399437845166 stripped
