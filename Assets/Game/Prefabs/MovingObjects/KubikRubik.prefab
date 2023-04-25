@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7988242944819387752}
   - component: {fileID: 7988242944819513326}
   - component: {fileID: 7988242945290237220}
+  - component: {fileID: 69500159049074458}
   m_Layer: 0
   m_Name: KubikRubik
   m_TagString: Platform
@@ -64,6 +65,21 @@ MonoBehaviour:
   startingPosition: {x: 13.108, y: -1.31, z: -3.61}
   endPosition: {x: 13.108, y: 1.533, z: -3.61}
   speed: 0.3
+--- !u!114 &69500159049074458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7988242944819544392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985add12ee4836e40b7241671b1d892c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fogWar: {fileID: 0}
+  visibility: 0
+  additionalRadius: 0
 --- !u!1 &7988242944819544394
 GameObject:
   m_ObjectHideFlags: 0

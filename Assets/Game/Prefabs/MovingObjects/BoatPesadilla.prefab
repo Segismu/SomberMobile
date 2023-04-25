@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5596658405967412919}
   - component: {fileID: 8655768920681209261}
   - component: {fileID: 2736572728898457346}
+  - component: {fileID: 7423753068952822744}
   m_Layer: 0
   m_Name: BoatPesadilla
   m_TagString: Obstacles
@@ -106,6 +107,21 @@ MonoBehaviour:
           m_StringArgument: isDamaged
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7423753068952822744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8660630948673182337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985add12ee4836e40b7241671b1d892c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fogWar: {fileID: 0}
+  visibility: 0
+  additionalRadius: 0
 --- !u!1 &8660630948673182339
 GameObject:
   m_ObjectHideFlags: 0
