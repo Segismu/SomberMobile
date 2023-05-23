@@ -16,12 +16,22 @@ public class AchivementController : MonoBehaviour
     public int achFirstMemoryCode;
     public static int achFirstMemoryCount;
 
+    public int ach2MemoryTrigger = 2;
+    public int ach2MemoryCode;
+    public static int ach2MemoryCount;
+
     void Update()
     {
         achFirstMemoryCode = PlayerPrefs.GetInt("AchFirstMemory");
         if (achFirstMemoryCount == achFirstMemoryTrigger && achFirstMemoryCode != 00001)
         {
             StartCoroutine(TriggerFirstMemoryAch());
+        }
+
+        achFirstMemoryCode = PlayerPrefs.GetInt("Ach2Memory");
+        if (ach2MemoryCount == ach2MemoryTrigger && ach2MemoryCode != 00002)
+        {
+            StartCoroutine(Trigger2MemoryAch());
         }
     }
 
@@ -41,6 +51,19 @@ public class AchivementController : MonoBehaviour
         //achFirstMemoryImage.SetActive(false);
         //achTitle.GetComponent<Text>().text = "";
         //achDescription.GetComponent<Text>().text = "";
+        achActive = false;
+
+    }
+
+    IEnumerator Trigger2MemoryAch()
+    {
+        achActive = true;
+        ach2MemoryCode = 00002;
+        PlayerPrefs.SetInt("Ach2Memory", ach2MemoryCode);
+        achNotification.SetActive(true);
+        yield return new WaitForSeconds(5);
+
+        achNotification.SetActive(false);
         achActive = false;
 
     }
