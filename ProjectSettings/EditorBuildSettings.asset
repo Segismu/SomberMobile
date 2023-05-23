@@ -15,14 +15,74 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1.unity
     guid: 94c66eee13220984cb951634fe158ed8
   - enabled: 1
+    path: Assets/Scenes/Mazes/L1.unity
+    guid: 12e5c1d13b2ed4bfab9dcebcc8c28e8d
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L2.unity
+    guid: 26eaba8b4115c432d9be41bab348713b
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L3.unity
+    guid: 9e1325cb227a343b98898b964f58127c
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L4.unity
+    guid: 890c3583f1f37487da2628798ab177ba
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L5.unity
+    guid: 932a3c55e54984f5f812728ec2af3093
+  - enabled: 1
     path: Assets/Scenes/LevelBath.unity
     guid: 1a5ec1770a2b5614cb40ef070236a782
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L6e.unity
+    guid: a782603da509e4ab6aa764586353f78c
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L7e.unity
+    guid: 32a567af5f42e44d4831b31fa47247b3
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L8e.unity
+    guid: 9a74df25a7bcf4ea896d82bc4eba0204
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L9e.unity
+    guid: 0432cf764b1f24763847a6013f676927
   - enabled: 1
     path: Assets/Scenes/LevelKitchen.unity
     guid: 6fb7f5585f2e4cc4db8a4bb884cfff78
   - enabled: 1
+    path: Assets/Scenes/Mazes/L10m.unity
+    guid: 13ddc384a765245b79a9a7466aab5a1f
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L11m.unity
+    guid: 2a06ab97012b448d88a47fd762989dd6
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L12m.unity
+    guid: a713255735c874e878d8c098a320e5c6
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L13m.unity
+    guid: 8b3a451dac4c642c89af64f18381d9e7
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L14m.unity
+    guid: 9408de69c5fc547d2ac070915864c13b
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L15m.unity
+    guid: c2c58119c7f244bf7830db9b5aec3b2b
+  - enabled: 1
     path: Assets/Scenes/LevelBed.unity
     guid: 62441f96ab4ed894780adb7ec1ce55ac
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L16h.unity
+    guid: afb638854ba354277bc6b64baa538a1c
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L17h.unity
+    guid: 5070aae7e3193472d845052a7d7e7ee4
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L18h.unity
+    guid: ca08aca89235942ce9aa78dd057b0b5d
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L19h.unity
+    guid: 473edba238d26407fab5a7ab8c44934d
+  - enabled: 1
+    path: Assets/Scenes/Mazes/L20mm.unity
+    guid: 2f6b068cb700b459697d95e8048d4192
   - enabled: 1
     path: Assets/Scenes/End.unity
     guid: 0bb28f769ed91c9488d9d8496cdecc77
