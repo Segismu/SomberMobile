@@ -9824,10 +9824,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achNotification: {fileID: 173677124}
   achActive: 0
-  achFirstMemoryTrigger: 2
+  achFirstMemoryTrigger: 1
   achFirstMemoryCode: 0
-  ach2MemoryTrigger: 2
-  ach2MemoryCode: 0
 --- !u!114 &928653049 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2979588120671671914, guid: 8752381a316ad42a5ba7c9103b76248e,
@@ -11341,7 +11339,7 @@ GameObject:
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1245703507
 Transform:
   m_ObjectHideFlags: 0

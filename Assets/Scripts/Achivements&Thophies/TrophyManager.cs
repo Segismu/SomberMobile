@@ -7,15 +7,15 @@ public class TrophyManager : MonoBehaviour
     //Needs to expand for each achivement.
 
     public GameObject firstMemoryTrophy;
-    public int achFirstMemoryCode;
+    int achFirstMemoryCode;
 
-    public GameObject memory2Trophy;
-    public int ach2MemoryCode;
+    //public GameObject memory2Trophy;
+    //public int ach2MemoryCode;
 
     void Start()
     {
         firstMemoryTrophy.SetActive(false);
-        memory2Trophy.SetActive(false);
+        //memory2Trophy.SetActive(false);
     }
 
     void Update()
@@ -27,11 +27,11 @@ public class TrophyManager : MonoBehaviour
             firstMemoryTrophy.SetActive(true);
         }
 
-        ach2MemoryCode = PlayerPrefs.GetInt("Ach2Memory");
+        //ach2MemoryCode = PlayerPrefs.GetInt("Ach2Memory");
 
-        if (ach2MemoryCode == 00002)
-        {
-            memory2Trophy.SetActive(true);
-        }
+        //if (ach2MemoryCode == 00002)
+        //{
+        //    memory2Trophy.SetActive(true);
+        //}
     }
 }

@@ -1484,9 +1484,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstMemoryTrophy: {fileID: 1402349493}
-  achFirstMemoryCode: 1
-  memory2Trophy: {fileID: 1594492736}
-  ach2MemoryCode: 2
 --- !u!4 &1267898411
 Transform:
   m_ObjectHideFlags: 0

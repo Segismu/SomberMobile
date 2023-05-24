@@ -12,13 +12,13 @@ public class AchivementController : MonoBehaviour
     public bool achActive = false;
 
     //[SerializeField] GameObject achFirstMemoryImage;
-    public int achFirstMemoryTrigger = 2;
+    public int achFirstMemoryTrigger = 1;
     public int achFirstMemoryCode;
-    public static int achFirstMemoryCount;
+    public static int achFirstMemoryCount = 0;
 
-    public int ach2MemoryTrigger = 2;
-    public int ach2MemoryCode;
-    public static int ach2MemoryCount;
+    //public int ach2MemoryTrigger = 2;
+    //public int ach2MemoryCode;
+    //public static int ach2MemoryCount;
 
     void Update()
     {
@@ -28,11 +28,11 @@ public class AchivementController : MonoBehaviour
             StartCoroutine(TriggerFirstMemoryAch());
         }
 
-        achFirstMemoryCode = PlayerPrefs.GetInt("Ach2Memory");
-        if (ach2MemoryCount == ach2MemoryTrigger && ach2MemoryCode != 00002)
-        {
-            StartCoroutine(Trigger2MemoryAch());
-        }
+        //achFirstMemoryCode = PlayerPrefs.GetInt("Ach2Memory");
+        //if (ach2MemoryCount == ach2MemoryTrigger && ach2MemoryCode != 00002)
+        //{
+        //    StartCoroutine(Trigger2MemoryAch());
+        //}
     }
 
     IEnumerator TriggerFirstMemoryAch()
@@ -55,16 +55,16 @@ public class AchivementController : MonoBehaviour
 
     }
 
-    IEnumerator Trigger2MemoryAch()
-    {
-        achActive = true;
-        ach2MemoryCode = 00002;
-        PlayerPrefs.SetInt("Ach2Memory", ach2MemoryCode);
-        achNotification.SetActive(true);
-        yield return new WaitForSeconds(5);
+    //IEnumerator Trigger2MemoryAch()
+    //{
+    //    achActive = true;
+    //    ach2MemoryCode = 00002;
+    //    PlayerPrefs.SetInt("Ach2Memory", ach2MemoryCode);
+    //    achNotification.SetActive(true);
+    //    yield return new WaitForSeconds(5);
 
-        achNotification.SetActive(false);
-        achActive = false;
+    //    achNotification.SetActive(false);
+    //    achActive = false;
 
-    }
+    //}
 }
