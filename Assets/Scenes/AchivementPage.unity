@@ -1484,6 +1484,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstMemoryTrophy: {fileID: 1402349493}
+  memory2Trophy: {fileID: 1594492736}
+  memory3Trophy: {fileID: 1373334576}
 --- !u!4 &1267898411
 Transform:
   m_ObjectHideFlags: 0
