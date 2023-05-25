@@ -20,6 +20,10 @@ public class AchivementController : MonoBehaviour
     public int ach3MemoryCode;
     public static int ach3MemoryCount;
 
+    public int ach4MemoryTrigger = 1;
+    public int ach4MemoryCode;
+    public static int ach4MemoryCount;
+
     void Update()
     {
         achFirstMemoryCode = PlayerPrefs.GetInt("AchFirstMemory");
@@ -38,6 +42,12 @@ public class AchivementController : MonoBehaviour
         if (ach3MemoryCount == ach3MemoryTrigger && ach3MemoryCode != 00003)
         {
             StartCoroutine(Trigger3MemoryAch());
+        }
+
+        ach4MemoryCode = PlayerPrefs.GetInt("Ach4Memory");
+        if (ach4MemoryCount == ach4MemoryTrigger && ach4MemoryCode != 00004)
+        {
+            StartCoroutine(Trigger4MemoryAch());
         }
     }
 
@@ -68,6 +78,17 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach3MemoryCode = 00003;
         PlayerPrefs.SetInt("Ach3Memory", ach3MemoryCode);
+        achNotification.SetActive(true);
+        yield return new WaitForSeconds(5);
+        achNotification.SetActive(false);
+        achActive = false;
+    }
+
+    IEnumerator Trigger4MemoryAch()
+    {
+        achActive = true;
+        ach4MemoryCode = 00004;
+        PlayerPrefs.SetInt("Ach4Memory", ach4MemoryCode);
         achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
         achNotification.SetActive(false);
