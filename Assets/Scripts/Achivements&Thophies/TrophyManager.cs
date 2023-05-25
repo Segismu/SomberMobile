@@ -33,6 +33,12 @@ public class TrophyManager : MonoBehaviour
     public GameObject memory9Trophy;
     int ach9MemoryCode;
 
+    public GameObject memory10Trophy;
+    int ach10MemoryCode;
+
+    public GameObject memory11Trophy;
+    int ach11MemoryCode;
+
     void Start()
     {
         firstMemoryTrophy.SetActive(false);
@@ -44,6 +50,8 @@ public class TrophyManager : MonoBehaviour
         memory7Trophy.SetActive(false);
         memory8Trophy.SetActive(false);
         memory9Trophy.SetActive(false);
+        memory10Trophy.SetActive(false);
+        memory11Trophy.SetActive(false);
     }
 
     void Update()
@@ -109,6 +117,20 @@ public class TrophyManager : MonoBehaviour
         if (ach9MemoryCode == 00009)
         {
             memory9Trophy.SetActive(true);
+        }
+
+        ach10MemoryCode = PlayerPrefs.GetInt("Ach10Memory");
+
+        if (ach10MemoryCode == 00010)
+        {
+            memory10Trophy.SetActive(true);
+        }
+
+        ach11MemoryCode = PlayerPrefs.GetInt("Ach11Memory");
+
+        if (ach11MemoryCode == 00011)
+        {
+            memory11Trophy.SetActive(true);
         }
     }
 }
