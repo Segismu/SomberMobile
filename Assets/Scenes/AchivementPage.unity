@@ -1490,6 +1490,7 @@ MonoBehaviour:
   memory5Trophy: {fileID: 416071130}
   memory6Trophy: {fileID: 1793889909}
   memory7Trophy: {fileID: 1067273910}
+  memory8Trophy: {fileID: 1055148613}
 --- !u!4 &1267898411
 Transform:
   m_ObjectHideFlags: 0
