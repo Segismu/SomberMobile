@@ -24,6 +24,18 @@ public class AchivementController : MonoBehaviour
     public int ach4MemoryCode;
     public static int ach4MemoryCount;
 
+    public int ach5MemoryTrigger = 1;
+    public int ach5MemoryCode;
+    public static int ach5MemoryCount;
+
+    public int ach6MemoryTrigger = 1;
+    public int ach6MemoryCode;
+    public static int ach6MemoryCount;
+
+    public int ach7MemoryTrigger = 1;
+    public int ach7MemoryCode;
+    public static int ach7MemoryCount;
+
     void Update()
     {
         achFirstMemoryCode = PlayerPrefs.GetInt("AchFirstMemory");
@@ -48,6 +60,24 @@ public class AchivementController : MonoBehaviour
         if (ach4MemoryCount == ach4MemoryTrigger && ach4MemoryCode != 00004)
         {
             StartCoroutine(Trigger4MemoryAch());
+        }
+
+        ach5MemoryCode = PlayerPrefs.GetInt("Ach5Memory");
+        if (ach5MemoryCount == ach5MemoryTrigger && ach5MemoryCode != 00005)
+        {
+            StartCoroutine(Trigger5MemoryAch());
+        }
+
+        ach6MemoryCode = PlayerPrefs.GetInt("Ach6Memory");
+        if (ach6MemoryCount == ach6MemoryTrigger && ach6MemoryCode != 00006)
+        {
+            StartCoroutine(Trigger6MemoryAch());
+        }
+
+        ach7MemoryCode = PlayerPrefs.GetInt("Ach7Memory");
+        if (ach7MemoryCount == ach7MemoryTrigger && ach7MemoryCode != 00007)
+        {
+            StartCoroutine(Trigger7MemoryAch());
         }
     }
 
@@ -89,6 +119,39 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach4MemoryCode = 00004;
         PlayerPrefs.SetInt("Ach4Memory", ach4MemoryCode);
+        achNotification.SetActive(true);
+        yield return new WaitForSeconds(5);
+        achNotification.SetActive(false);
+        achActive = false;
+    }
+
+    IEnumerator Trigger5MemoryAch()
+    {
+        achActive = true;
+        ach5MemoryCode = 00005;
+        PlayerPrefs.SetInt("Ach5Memory", ach5MemoryCode);
+        achNotification.SetActive(true);
+        yield return new WaitForSeconds(5);
+        achNotification.SetActive(false);
+        achActive = false;
+    }
+
+    IEnumerator Trigger6MemoryAch()
+    {
+        achActive = true;
+        ach6MemoryCode = 00006;
+        PlayerPrefs.SetInt("Ach6Memory", ach6MemoryCode);
+        achNotification.SetActive(true);
+        yield return new WaitForSeconds(5);
+        achNotification.SetActive(false);
+        achActive = false;
+    }
+
+    IEnumerator Trigger7MemoryAch()
+    {
+        achActive = true;
+        ach7MemoryCode = 00007;
+        PlayerPrefs.SetInt("Ach7Memory", ach7MemoryCode);
         achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
         achNotification.SetActive(false);
