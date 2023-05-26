@@ -52,6 +52,14 @@ public class AchivementController : MonoBehaviour
     public int ach11MemoryCode;
     public static int ach11MemoryCount;
 
+    public int ach12MemoryTrigger = 1;
+    public int ach12MemoryCode;
+    public static int ach12MemoryCount;
+
+    public int ach13MemoryTrigger = 1;
+    public int ach13MemoryCode;
+    public static int ach13MemoryCount;
+
     void Update()
     {
         achFirstMemoryCode = PlayerPrefs.GetInt("AchFirstMemory");
@@ -118,6 +126,18 @@ public class AchivementController : MonoBehaviour
         if (ach11MemoryCount == ach11MemoryTrigger && ach11MemoryCode != 00011)
         {
             StartCoroutine(Trigger11MemoryAch());
+        }
+
+        ach12MemoryCode = PlayerPrefs.GetInt("Ach12Memory");
+        if (ach12MemoryCount == ach12MemoryTrigger && ach12MemoryCode != 00012)
+        {
+            StartCoroutine(Trigger12MemoryAch());
+        }
+
+        ach13MemoryCode = PlayerPrefs.GetInt("Ach13Memory");
+        if (ach13MemoryCount == ach13MemoryTrigger && ach13MemoryCode != 00013)
+        {
+            StartCoroutine(Trigger13MemoryAch());
         }
     }
 
@@ -236,6 +256,28 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach11MemoryCode = 00011;
         PlayerPrefs.SetInt("Ach11Memory", ach11MemoryCode);
+        achNotification.SetActive(true);
+        yield return new WaitForSeconds(5);
+        achNotification.SetActive(false);
+        achActive = false;
+    }
+
+    IEnumerator Trigger12MemoryAch()
+    {
+        achActive = true;
+        ach12MemoryCode = 00012;
+        PlayerPrefs.SetInt("Ach12Memory", ach12MemoryCode);
+        achNotification.SetActive(true);
+        yield return new WaitForSeconds(5);
+        achNotification.SetActive(false);
+        achActive = false;
+    }
+
+    IEnumerator Trigger13MemoryAch()
+    {
+        achActive = true;
+        ach13MemoryCode = 00013;
+        PlayerPrefs.SetInt("Ach13Memory", ach13MemoryCode);
         achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
         achNotification.SetActive(false);
