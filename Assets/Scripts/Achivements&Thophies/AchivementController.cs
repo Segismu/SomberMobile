@@ -68,6 +68,14 @@ public class AchivementController : MonoBehaviour
     public int ach15MemoryCode;
     public static int ach15MemoryCount;
 
+    public int ach16MemoryTrigger = 1;
+    public int ach16MemoryCode;
+    public static int ach16MemoryCount;
+
+    public int ach17MemoryTrigger = 1;
+    public int ach17MemoryCode;
+    public static int ach17MemoryCount;
+
     void Update()
     {
         achFirstMemoryCode = PlayerPrefs.GetInt("AchFirstMemory");
@@ -149,15 +157,27 @@ public class AchivementController : MonoBehaviour
         }
 
         ach14MemoryCode = PlayerPrefs.GetInt("Ach14Memory");
-        if (ach14MemoryCount == ach13MemoryTrigger && ach13MemoryCode != 00014)
+        if (ach14MemoryCount == ach14MemoryTrigger && ach14MemoryCode != 00014)
         {
             StartCoroutine(Trigger14MemoryAch());
         }
 
         ach15MemoryCode = PlayerPrefs.GetInt("Ach15Memory");
-        if (ach15MemoryCount == ach15MemoryTrigger && ach13MemoryCode != 00015)
+        if (ach15MemoryCount == ach15MemoryTrigger && ach15MemoryCode != 00015)
         {
             StartCoroutine(Trigger15MemoryAch());
+        }
+
+        ach16MemoryCode = PlayerPrefs.GetInt("Ach16Memory");
+        if (ach16MemoryCount == ach16MemoryTrigger && ach16MemoryCode != 00016)
+        {
+            StartCoroutine(Trigger16MemoryAch());
+        }
+
+        ach17MemoryCode = PlayerPrefs.GetInt("Ach17Memory");
+        if (ach17MemoryCount == ach17MemoryTrigger && ach17MemoryCode != 00017)
+        {
+            StartCoroutine(Trigger17MemoryAch());
         }
     }
 
@@ -323,6 +343,26 @@ public class AchivementController : MonoBehaviour
         achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
         achNotification.SetActive(false);
+        achActive = false;
+    }
+
+    IEnumerator Trigger16MemoryAch()
+    {
+        achActive = true;
+        ach16MemoryCode = 00016;
+        PlayerPrefs.SetInt("Ach16Memory", ach16MemoryCode);
+        //achNotification.SetActive(true);
+        yield return new WaitForSeconds(5);
+        //achNotification.SetActive(false);
+        achActive = false;
+    }
+
+    IEnumerator Trigger17MemoryAch()
+    {
+        achActive = true;
+        ach17MemoryCode = 00017;
+        PlayerPrefs.SetInt("Ach17Memory", ach17MemoryCode);
+        yield return new WaitForSeconds(5);
         achActive = false;
     }
 }
