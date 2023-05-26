@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class AchivementController : MonoBehaviour
 {
-    [SerializeField] GameObject achNotification;
     public bool achActive = false;
 
     public int achFirstMemoryTrigger = 1;
@@ -186,9 +185,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         achFirstMemoryCode = 00001;
         PlayerPrefs.SetInt("AchFirstMemory", achFirstMemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -197,9 +194,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach2MemoryCode = 00002;
         PlayerPrefs.SetInt("Ach2Memory", ach2MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -208,9 +203,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach3MemoryCode = 00003;
         PlayerPrefs.SetInt("Ach3Memory", ach3MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -219,9 +212,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach4MemoryCode = 00004;
         PlayerPrefs.SetInt("Ach4Memory", ach4MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -230,9 +221,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach5MemoryCode = 00005;
         PlayerPrefs.SetInt("Ach5Memory", ach5MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -241,9 +230,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach6MemoryCode = 00006;
         PlayerPrefs.SetInt("Ach6Memory", ach6MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -252,9 +239,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach7MemoryCode = 00007;
         PlayerPrefs.SetInt("Ach7Memory", ach7MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -263,9 +248,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach8MemoryCode = 00008;
         PlayerPrefs.SetInt("Ach8Memory", ach8MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -274,9 +257,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach9MemoryCode = 00009;
         PlayerPrefs.SetInt("Ach9Memory", ach9MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -285,9 +266,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach10MemoryCode = 00010;
         PlayerPrefs.SetInt("Ach10Memory", ach10MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -296,9 +275,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach11MemoryCode = 00011;
         PlayerPrefs.SetInt("Ach11Memory", ach11MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -307,9 +284,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach12MemoryCode = 00012;
         PlayerPrefs.SetInt("Ach12Memory", ach12MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -318,9 +293,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach13MemoryCode = 00013;
         PlayerPrefs.SetInt("Ach13Memory", ach13MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -329,9 +302,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach14MemoryCode = 00014;
         PlayerPrefs.SetInt("Ach14Memory", ach14MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -340,9 +311,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach15MemoryCode = 00015;
         PlayerPrefs.SetInt("Ach15Memory", ach15MemoryCode);
-        achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        achNotification.SetActive(false);
         achActive = false;
     }
 
@@ -351,9 +320,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach16MemoryCode = 00016;
         PlayerPrefs.SetInt("Ach16Memory", ach16MemoryCode);
-        //achNotification.SetActive(true);
         yield return new WaitForSeconds(5);
-        //achNotification.SetActive(false);
         achActive = false;
     }
 
