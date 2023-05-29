@@ -13,7 +13,7 @@ public class RollerBall : MonoBehaviour {
 
 	private Rigidbody mRigidBody = null;
 	private AudioSource mAudioSource = null;
-	private bool mFloorTouched = false;
+	//private bool mFloorTouched = false;
 
 	void Start () {
 		mRigidBody = GetComponent<Rigidbody> ();
@@ -50,7 +50,7 @@ public class RollerBall : MonoBehaviour {
 
 	void OnCollisionEnter(Collision coll){
 		if (coll.gameObject.tag.Equals ("Floor")) {
-			mFloorTouched = true;
+			//mFloorTouched = true;
 			if (mAudioSource != null && HitSound != null && coll.relativeVelocity.y > .5f) {
 				mAudioSource.PlayOneShot (HitSound, coll.relativeVelocity.magnitude);
 			}
@@ -63,7 +63,7 @@ public class RollerBall : MonoBehaviour {
 
 	void OnCollisionExit(Collision coll){
 		if (coll.gameObject.tag.Equals ("Floor")) {
-			mFloorTouched = false;
+			//mFloorTouched = false;
 		}
 	}
 
