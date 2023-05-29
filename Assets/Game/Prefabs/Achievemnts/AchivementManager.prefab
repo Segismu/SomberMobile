@@ -44,7 +44,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b395edc1b218d40cd9e8dea9010d5036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  achNotification: {fileID: 0}
   achActive: 0
-  achFirstMemoryTrigger: 2
+  achFirstMemoryTrigger: 1
   achFirstMemoryCode: 0
+  ach2MemoryTrigger: 1
+  ach2MemoryCode: 0
+  ach3MemoryTrigger: 1
+  ach3MemoryCode: 0
+  ach4MemoryTrigger: 1
+  ach4MemoryCode: 0
+  ach5MemoryTrigger: 1
+  ach5MemoryCode: 0
+  ach6MemoryTrigger: 1
+  ach6MemoryCode: 0
+  ach7MemoryTrigger: 1
+  ach7MemoryCode: 0
+  ach8MemoryTrigger: 1
+  ach8MemoryCode: 0
+  ach9MemoryTrigger: 1
+  ach9MemoryCode: 0
+  ach10MemoryTrigger: 1
+  ach10MemoryCode: 0
+  ach11MemoryTrigger: 1
+  ach11MemoryCode: 0
+  ach12MemoryTrigger: 1
+  ach12MemoryCode: 0
+  ach13MemoryTrigger: 1
+  ach13MemoryCode: 0
+  ach14MemoryTrigger: 1
+  ach14MemoryCode: 0
+  ach15MemoryTrigger: 1
+  ach15MemoryCode: 0
+  ach16MemoryTrigger: 1
+  ach16MemoryCode: 0
+  ach17MemoryTrigger: 1
+  ach17MemoryCode: 0
+  ach18MemoryTrigger: 1
+  ach18MemoryCode: 0
+  ach19MemoryTrigger: 1
+  ach19MemoryCode: 0
+  ach20MemoryTrigger: 1
+  ach20MemoryCode: 0
+  ach21MemoryTrigger: 1
+  ach21MemoryCode: 0
