@@ -83,6 +83,10 @@ public class AchivementController : MonoBehaviour
     public int ach19MemoryCode;
     public static int ach19MemoryCount;
 
+    public int ach20MemoryTrigger = 1;
+    public int ach20MemoryCode;
+    public static int ach20MemoryCount;
+
     void Update()
     {
         achFirstMemoryCode = PlayerPrefs.GetInt("AchFirstMemory");
@@ -197,6 +201,12 @@ public class AchivementController : MonoBehaviour
         if (ach19MemoryCount == ach19MemoryTrigger && ach19MemoryCode != 00019)
         {
             StartCoroutine(Trigger19MemoryAch());
+        }
+
+        ach20MemoryCode = PlayerPrefs.GetInt("Ach20Memory");
+        if (ach20MemoryCount == ach20MemoryTrigger && ach20MemoryCode != 00020)
+        {
+            StartCoroutine(Trigger20MemoryAch());
         }
     }
 
@@ -367,6 +377,15 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach19MemoryCode = 00019;
         PlayerPrefs.SetInt("Ach19Memory", ach19MemoryCode);
+        yield return new WaitForSeconds(5);
+        achActive = false;
+    }
+
+    IEnumerator Trigger20MemoryAch()
+    {
+        achActive = true;
+        ach20MemoryCode = 00020;
+        PlayerPrefs.SetInt("Ach20Memory", ach20MemoryCode);
         yield return new WaitForSeconds(5);
         achActive = false;
     }
