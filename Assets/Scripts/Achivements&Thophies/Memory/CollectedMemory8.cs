@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class CollectedMemory8 : MonoBehaviour
 {
-    //[SerializeField] AudioSource collectSound;
+    [SerializeField] AudioSource collectSound;
 
     void OnTriggerEnter(Collider other)
     {
         AchivementController.ach8MemoryCount += 1;
-        //collectSound.Play();
+        collectSound.Play();
         Destroy(gameObject);
     }
 }
