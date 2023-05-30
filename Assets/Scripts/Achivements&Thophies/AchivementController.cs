@@ -13,83 +13,83 @@ public class AchivementController : MonoBehaviour
 
     public int ach2MemoryTrigger = 1;
     public int ach2MemoryCode;
-    public static int ach2MemoryCount;
+    public static int ach2MemoryCount = 0;
 
     public int ach3MemoryTrigger = 1;
     public int ach3MemoryCode;
-    public static int ach3MemoryCount;
+    public static int ach3MemoryCount = 0;
 
     public int ach4MemoryTrigger = 1;
     public int ach4MemoryCode;
-    public static int ach4MemoryCount;
+    public static int ach4MemoryCount = 0;
 
     public int ach5MemoryTrigger = 1;
     public int ach5MemoryCode;
-    public static int ach5MemoryCount;
+    public static int ach5MemoryCount = 0;
 
     public int ach6MemoryTrigger = 1;
     public int ach6MemoryCode;
-    public static int ach6MemoryCount;
+    public static int ach6MemoryCount = 0;
 
     public int ach7MemoryTrigger = 1;
     public int ach7MemoryCode;
-    public static int ach7MemoryCount;
+    public static int ach7MemoryCount = 0;
 
     public int ach8MemoryTrigger = 1;
     public int ach8MemoryCode;
-    public static int ach8MemoryCount;
+    public static int ach8MemoryCount = 0;
 
     public int ach9MemoryTrigger = 1;
     public int ach9MemoryCode;
-    public static int ach9MemoryCount;
+    public static int ach9MemoryCount = 0;
 
     public int ach10MemoryTrigger = 1;
     public int ach10MemoryCode;
-    public static int ach10MemoryCount;
+    public static int ach10MemoryCount = 0;
 
     public int ach11MemoryTrigger = 1;
     public int ach11MemoryCode;
-    public static int ach11MemoryCount;
+    public static int ach11MemoryCount = 0;
 
     public int ach12MemoryTrigger = 1;
     public int ach12MemoryCode;
-    public static int ach12MemoryCount;
+    public static int ach12MemoryCount = 0;
 
     public int ach13MemoryTrigger = 1;
     public int ach13MemoryCode;
-    public static int ach13MemoryCount;
+    public static int ach13MemoryCount = 0;
 
     public int ach14MemoryTrigger = 1;
     public int ach14MemoryCode;
-    public static int ach14MemoryCount;
+    public static int ach14MemoryCount = 0;
 
     public int ach15MemoryTrigger = 1;
     public int ach15MemoryCode;
-    public static int ach15MemoryCount;
+    public static int ach15MemoryCount = 0;
 
     public int ach16MemoryTrigger = 1;
     public int ach16MemoryCode;
-    public static int ach16MemoryCount;
+    public static int ach16MemoryCount = 0;
 
     public int ach17MemoryTrigger = 1;
     public int ach17MemoryCode;
-    public static int ach17MemoryCount;
+    public static int ach17MemoryCount = 0;
 
     public int ach18MemoryTrigger = 1;
     public int ach18MemoryCode;
-    public static int ach18MemoryCount;
+    public static int ach18MemoryCount = 0;
 
     public int ach19MemoryTrigger = 1;
     public int ach19MemoryCode;
-    public static int ach19MemoryCount;
+    public static int ach19MemoryCount = 0;
 
     public int ach20MemoryTrigger = 1;
     public int ach20MemoryCode;
-    public static int ach20MemoryCount;
+    public static int ach20MemoryCount = 0;
 
     public int ach21MemoryTrigger = 1;
     public int ach21MemoryCode;
-    public static int ach21MemoryCount;
+    public static int ach21MemoryCount = 0;
 
     void Update()
     {
@@ -225,7 +225,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         achFirstMemoryCode = 00001;
         PlayerPrefs.SetInt("AchFirstMemory", achFirstMemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
@@ -234,7 +235,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach2MemoryCode = 00002;
         PlayerPrefs.SetInt("Ach2Memory", ach2MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
