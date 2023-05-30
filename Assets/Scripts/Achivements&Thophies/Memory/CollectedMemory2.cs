@@ -8,7 +8,7 @@ public class CollectedMemory2 : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        AchivementController.ach2MemoryCount += 1;
+        AchivementController.ach2MemoryCount++;
         collectSound.Play();
         Destroy(gameObject);
     }

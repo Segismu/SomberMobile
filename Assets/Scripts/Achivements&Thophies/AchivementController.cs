@@ -9,11 +9,11 @@ public class AchivementController : MonoBehaviour
 
     public int achFirstMemoryTrigger = 1;
     public int achFirstMemoryCode;
-    public static int achFirstMemoryCount = 0;
+    public static int achFirstMemoryCount = 1;
 
     public int ach2MemoryTrigger = 1;
     public int ach2MemoryCode;
-    public static int ach2MemoryCount = 0;
+    public static int ach2MemoryCount = 1;
 
     public int ach3MemoryTrigger = 1;
     public int ach3MemoryCode;
@@ -93,14 +93,15 @@ public class AchivementController : MonoBehaviour
 
     void Update()
     {
+
         achFirstMemoryCode = PlayerPrefs.GetInt("AchFirstMemory");
-        if (achFirstMemoryCount == achFirstMemoryTrigger && achFirstMemoryCode != 00001)
+        if (achFirstMemoryCount > achFirstMemoryTrigger && achFirstMemoryCode != 00001)
         {
             StartCoroutine(TriggerFirstMemoryAch());
         }
 
         ach2MemoryCode = PlayerPrefs.GetInt("Ach2Memory");
-        if (ach2MemoryCount == ach2MemoryTrigger && ach2MemoryCode != 00002)
+        if (ach2MemoryCount > ach2MemoryTrigger && ach2MemoryCode != 00002)
         {
             StartCoroutine(Trigger2MemoryAch());
         }
