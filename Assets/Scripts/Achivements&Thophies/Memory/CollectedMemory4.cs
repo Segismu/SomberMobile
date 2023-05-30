@@ -6,10 +6,13 @@ public class CollectedMemory4 : MonoBehaviour
 {
     [SerializeField] AudioSource collectSound;
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider Testis)
     {
-        AchivementController.ach4MemoryCount += 1;
-        collectSound.Play();
-        Destroy(gameObject);
+        if (Testis.tag == "Player")
+        {
+            AchivementController.ach4MemoryCount++;
+            collectSound.Play();
+            Destroy(gameObject);
+        }
     }
 }
