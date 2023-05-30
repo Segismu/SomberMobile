@@ -17,7 +17,9 @@ public class AchivementController : MonoBehaviour
 
     public int ach3MemoryTrigger = 1;
     public int ach3MemoryCode;
-    public static int ach3MemoryCount = 0;
+    public static int ach3MemoryCount = 1;
+
+    //
 
     public int ach4MemoryTrigger = 1;
     public int ach4MemoryCode;
@@ -107,7 +109,7 @@ public class AchivementController : MonoBehaviour
         }
 
         ach3MemoryCode = PlayerPrefs.GetInt("Ach3Memory");
-        if (ach3MemoryCount == ach3MemoryTrigger && ach3MemoryCode != 00003)
+        if (ach3MemoryCount > ach3MemoryTrigger && ach3MemoryCode != 00003)
         {
             StartCoroutine(Trigger3MemoryAch());
         }
@@ -246,6 +248,7 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach3MemoryCode = 00003;
         PlayerPrefs.SetInt("Ach3Memory", ach3MemoryCode);
+        PlayerPrefs.Save();
         yield return new WaitForSeconds(5);
         achActive = false;
     }
