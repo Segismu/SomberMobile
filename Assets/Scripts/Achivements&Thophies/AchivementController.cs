@@ -43,55 +43,53 @@ public class AchivementController : MonoBehaviour
     public int ach9MemoryCode;
     public static int ach9MemoryCount = 1;
 
-    //
-
     public int ach10MemoryTrigger = 1;
     public int ach10MemoryCode;
-    public static int ach10MemoryCount = 0;
+    public static int ach10MemoryCount = 1;
 
     public int ach11MemoryTrigger = 1;
     public int ach11MemoryCode;
-    public static int ach11MemoryCount = 0;
+    public static int ach11MemoryCount = 1;
 
     public int ach12MemoryTrigger = 1;
     public int ach12MemoryCode;
-    public static int ach12MemoryCount = 0;
+    public static int ach12MemoryCount = 1;
 
     public int ach13MemoryTrigger = 1;
     public int ach13MemoryCode;
-    public static int ach13MemoryCount = 0;
+    public static int ach13MemoryCount = 1;
 
     public int ach14MemoryTrigger = 1;
     public int ach14MemoryCode;
-    public static int ach14MemoryCount = 0;
+    public static int ach14MemoryCount = 1;
 
     public int ach15MemoryTrigger = 1;
     public int ach15MemoryCode;
-    public static int ach15MemoryCount = 0;
+    public static int ach15MemoryCount = 1;
 
     public int ach16MemoryTrigger = 1;
     public int ach16MemoryCode;
-    public static int ach16MemoryCount = 0;
+    public static int ach16MemoryCount = 1;
 
     public int ach17MemoryTrigger = 1;
     public int ach17MemoryCode;
-    public static int ach17MemoryCount = 0;
+    public static int ach17MemoryCount = 1;
 
     public int ach18MemoryTrigger = 1;
     public int ach18MemoryCode;
-    public static int ach18MemoryCount = 0;
+    public static int ach18MemoryCount = 1;
 
     public int ach19MemoryTrigger = 1;
     public int ach19MemoryCode;
-    public static int ach19MemoryCount = 0;
+    public static int ach19MemoryCount = 1;
 
     public int ach20MemoryTrigger = 1;
     public int ach20MemoryCode;
-    public static int ach20MemoryCount = 0;
+    public static int ach20MemoryCount = 1;
 
     public int ach21MemoryTrigger = 1;
     public int ach21MemoryCode;
-    public static int ach21MemoryCount = 0;
+    public static int ach21MemoryCount = 1;
 
     void Update()
     {
@@ -151,73 +149,73 @@ public class AchivementController : MonoBehaviour
         }
 
         ach10MemoryCode = PlayerPrefs.GetInt("Ach10Memory");
-        if (ach10MemoryCount == ach10MemoryTrigger && ach10MemoryCode != 00010)
+        if (ach10MemoryCount > ach10MemoryTrigger && ach10MemoryCode != 00010)
         {
             StartCoroutine(Trigger10MemoryAch());
         }
 
         ach11MemoryCode = PlayerPrefs.GetInt("Ach11Memory");
-        if (ach11MemoryCount == ach11MemoryTrigger && ach11MemoryCode != 00011)
+        if (ach11MemoryCount > ach11MemoryTrigger && ach11MemoryCode != 00011)
         {
             StartCoroutine(Trigger11MemoryAch());
         }
 
         ach12MemoryCode = PlayerPrefs.GetInt("Ach12Memory");
-        if (ach12MemoryCount == ach12MemoryTrigger && ach12MemoryCode != 00012)
+        if (ach12MemoryCount > ach12MemoryTrigger && ach12MemoryCode != 00012)
         {
             StartCoroutine(Trigger12MemoryAch());
         }
 
         ach13MemoryCode = PlayerPrefs.GetInt("Ach13Memory");
-        if (ach13MemoryCount == ach13MemoryTrigger && ach13MemoryCode != 00013)
+        if (ach13MemoryCount > ach13MemoryTrigger && ach13MemoryCode != 00013)
         {
             StartCoroutine(Trigger13MemoryAch());
         }
 
         ach14MemoryCode = PlayerPrefs.GetInt("Ach14Memory");
-        if (ach14MemoryCount == ach14MemoryTrigger && ach14MemoryCode != 00014)
+        if (ach14MemoryCount > ach14MemoryTrigger && ach14MemoryCode != 00014)
         {
             StartCoroutine(Trigger14MemoryAch());
         }
 
         ach15MemoryCode = PlayerPrefs.GetInt("Ach15Memory");
-        if (ach15MemoryCount == ach15MemoryTrigger && ach15MemoryCode != 00015)
+        if (ach15MemoryCount > ach15MemoryTrigger && ach15MemoryCode != 00015)
         {
             StartCoroutine(Trigger15MemoryAch());
         }
 
         ach16MemoryCode = PlayerPrefs.GetInt("Ach16Memory");
-        if (ach16MemoryCount == ach16MemoryTrigger && ach16MemoryCode != 00016)
+        if (ach16MemoryCount > ach16MemoryTrigger && ach16MemoryCode != 00016)
         {
             StartCoroutine(Trigger16MemoryAch());
         }
 
         ach17MemoryCode = PlayerPrefs.GetInt("Ach17Memory");
-        if (ach17MemoryCount == ach17MemoryTrigger && ach17MemoryCode != 00017)
+        if (ach17MemoryCount > ach17MemoryTrigger && ach17MemoryCode != 00017)
         {
             StartCoroutine(Trigger17MemoryAch());
         }
 
         ach18MemoryCode = PlayerPrefs.GetInt("Ach18Memory");
-        if (ach18MemoryCount == ach18MemoryTrigger && ach18MemoryCode != 00018)
+        if (ach18MemoryCount > ach18MemoryTrigger && ach18MemoryCode != 00018)
         {
             StartCoroutine(Trigger18MemoryAch());
         }
 
         ach19MemoryCode = PlayerPrefs.GetInt("Ach19Memory");
-        if (ach19MemoryCount == ach19MemoryTrigger && ach19MemoryCode != 00019)
+        if (ach19MemoryCount > ach19MemoryTrigger && ach19MemoryCode != 00019)
         {
             StartCoroutine(Trigger19MemoryAch());
         }
 
         ach20MemoryCode = PlayerPrefs.GetInt("Ach20Memory");
-        if (ach20MemoryCount == ach20MemoryTrigger && ach20MemoryCode != 00020)
+        if (ach20MemoryCount > ach20MemoryTrigger && ach20MemoryCode != 00020)
         {
             StartCoroutine(Trigger20MemoryAch());
         }
 
         ach21MemoryCode = PlayerPrefs.GetInt("Ach21Memory");
-        if (ach21MemoryCount == ach21MemoryTrigger && ach21MemoryCode != 00021)
+        if (ach21MemoryCount > ach21MemoryTrigger && ach21MemoryCode != 00021)
         {
             StartCoroutine(Trigger21MemoryAch());
         }
@@ -318,7 +316,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach10MemoryCode = 00010;
         PlayerPrefs.SetInt("Ach10Memory", ach10MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
@@ -327,7 +326,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach11MemoryCode = 00011;
         PlayerPrefs.SetInt("Ach11Memory", ach11MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
@@ -336,7 +336,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach12MemoryCode = 00012;
         PlayerPrefs.SetInt("Ach12Memory", ach12MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
@@ -345,7 +346,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach13MemoryCode = 00013;
         PlayerPrefs.SetInt("Ach13Memory", ach13MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
@@ -354,7 +356,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach14MemoryCode = 00014;
         PlayerPrefs.SetInt("Ach14Memory", ach14MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
@@ -363,7 +366,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach15MemoryCode = 00015;
         PlayerPrefs.SetInt("Ach15Memory", ach15MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
@@ -372,7 +376,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach16MemoryCode = 00016;
         PlayerPrefs.SetInt("Ach16Memory", ach16MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
@@ -381,7 +386,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach17MemoryCode = 00017;
         PlayerPrefs.SetInt("Ach17Memory", ach17MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
@@ -390,7 +396,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach18MemoryCode = 00018;
         PlayerPrefs.SetInt("Ach18Memory", ach18MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
@@ -399,7 +406,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach19MemoryCode = 00019;
         PlayerPrefs.SetInt("Ach19Memory", ach19MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
@@ -408,7 +416,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach20MemoryCode = 00020;
         PlayerPrefs.SetInt("Ach20Memory", ach20MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 
@@ -417,7 +426,8 @@ public class AchivementController : MonoBehaviour
         achActive = true;
         ach21MemoryCode = 00021;
         PlayerPrefs.SetInt("Ach21Memory", ach21MemoryCode);
-        yield return new WaitForSeconds(5);
+        PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
         achActive = false;
     }
 }
