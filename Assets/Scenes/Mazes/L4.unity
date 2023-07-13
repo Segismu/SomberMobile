@@ -2862,6 +2862,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Notification
       objectReference: {fileID: 0}
+    - target: {fileID: 1551638042592919146, guid: 9af8b15d2e9bf4e2480348f8f6a2f35c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af8b15d2e9bf4e2480348f8f6a2f35c, type: 3}
 --- !u!1 &378035384
@@ -7598,7 +7603,7 @@ PrefabInstance:
     - target: {fileID: 7117579073616947555, guid: bf238ea0722154c94b1477a814f9b135,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7117579073616947557, guid: bf238ea0722154c94b1477a814f9b135,
         type: 3}
@@ -9806,6 +9811,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HPCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2979588119364460767, guid: 8752381a316ad42a5ba7c9103b76248e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2979588119580434188, guid: 8752381a316ad42a5ba7c9103b76248e,
         type: 3}
@@ -20314,6 +20324,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KEYCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388759434413667218, guid: 38b21ca1e4a424fd8b1419ea36239614,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4388759434413667219, guid: 38b21ca1e4a424fd8b1419ea36239614,
         type: 3}

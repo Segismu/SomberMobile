@@ -4097,6 +4097,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Notification
       objectReference: {fileID: 0}
+    - target: {fileID: 1551638042592919146, guid: 9af8b15d2e9bf4e2480348f8f6a2f35c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af8b15d2e9bf4e2480348f8f6a2f35c, type: 3}
 --- !u!1001 &395904365
@@ -7831,7 +7836,7 @@ PrefabInstance:
     - target: {fileID: 7117579073616947555, guid: bf238ea0722154c94b1477a814f9b135,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7117579073616947557, guid: bf238ea0722154c94b1477a814f9b135,
         type: 3}
@@ -8501,7 +8506,7 @@ Transform:
   - {fileID: 2018755956}
   - {fileID: 1381559287}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &910381561
 GameObject:
@@ -10654,6 +10659,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HPCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2979588119364460767, guid: 8752381a316ad42a5ba7c9103b76248e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2979588119580434188, guid: 8752381a316ad42a5ba7c9103b76248e,
         type: 3}
@@ -17666,7 +17676,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1832581414
 GameObject:
@@ -20280,6 +20290,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KEYCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388759434413667218, guid: 38b21ca1e4a424fd8b1419ea36239614,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4388759434413667219, guid: 38b21ca1e4a424fd8b1419ea36239614,
         type: 3}
